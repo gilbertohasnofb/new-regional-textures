@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<!-- Regional definitions for the African rainforest, based on Tropical South America regions -->
+<PropertyList>
+  <name>African rainforest</name>
+
+  <area>
+    <lon1>-13.23</lon1>
+    <lon2>30.92</lon2>
+    <lat1>-7.16</lat1>
+    <lat2>9.0</lat2>
+  </area>
+
+  <material>
+    <name>MixedForestCover</name>
+    <name>MixedForest</name>
+    <name>RainForest</name>
+    <name>EvergreenBroadCover</name>
+    <name>EvergreenForest</name>     
+    <effect>Effects/forest</effect>
+    <texture-set>
+      <texture>Terrain/rainforest-hawaii.png</texture>
+      <texture n="11">Terrain/rainforest-hawaii.png</texture>
+    </texture-set>
+    <xsize>2000</xsize>
+    <ysize>2000</ysize>
+    <light-coverage>900000000.0</light-coverage>
+    <wood-coverage>4000.0</wood-coverage>
+    <tree-texture>Trees/tropical-alt2.png</tree-texture> 
+    <tree-varieties>8</tree-varieties>
+    <tree-range-m alias="/params/forest/tree-range-m"/>
+    <tree-height-m>35.0</tree-height-m>
+    <tree-width-m>30.0</tree-width-m>
+    <rolling-friction>1</rolling-friction>
+    <bumpiness>1</bumpiness>
+  </material>
+  
+  <material>
+    <name>MixedCrop</name>
+    <effect>Effects/forest</effect>
+    <texture-set>
+      <texture>Terrain/rainforest-hawaii.png</texture>
+      <texture n="11">Terrain/rainforest-hawaii.png</texture>
+      <texture n="12">Terrain/dirtrock.png</texture>
+    </texture-set>
+    <xsize>2000</xsize>
+    <ysize>2000</ysize>
+    <light-coverage>900000000.0</light-coverage>
+    <wood-coverage>6000.0</wood-coverage>
+    <tree-texture>Trees/tropical-alt2.png</tree-texture>
+    <tree-varieties>8</tree-varieties>
+    <tree-range-m alias="/params/forest/tree-range-m"/>
+    <tree-height-m>25.0</tree-height-m>
+    <tree-width-m>30.0</tree-width-m>
+    <rolling-friction>1</rolling-friction>
+    <bumpiness>1</bumpiness>
+  </material>
+
+</PropertyList>

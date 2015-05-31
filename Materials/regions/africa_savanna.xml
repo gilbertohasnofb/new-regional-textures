@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<!-- Regional definitions for the African savanna -->
+<PropertyList>
+  <name>Africa: savanna</name>
+
+  <area>
+    <lat1>18.19</lat1>
+    <lat2>-36.72</lat2>
+    <lon1>-19.05</lon1>
+    <lon2>42.29</lon2>
+  </area>
+
+  <material>
+    <name>RainForest</name>
+    <name>MixedForestCover</name>
+    <name>MixedForest</name>
+    <name>DeciduousBroadCover</name> <!-- these sholdn't be in Africa, but I've come across them there -->
+    <name>DeciduousForest</name>
+    <name>DeciduousNeedleCover</name>
+    <effect>Effects/forest</effect>
+    <texture-set>
+      <texture>Terrain/savanna-grass.png</texture>
+      <texture n="11">Terrain/savanna-overlay.png</texture>
+      <texture n="15">Terrain/airport_grass2.png</texture>
+    </texture-set>
+		<parameters>
+			<grain_strength>0.5</grain_strength>			
+			<hires_overlay_bias>0.1</hires_overlay_bias>
+		</parameters>
+    <xsize>2000</xsize>
+    <ysize>2000</ysize>
+    <light-coverage>900000000.0</light-coverage>
+    <wood-coverage>8000.0</wood-coverage>
+    <tree-texture>Trees/savanna-trees.png</tree-texture> 
+    <tree-varieties>4</tree-varieties>
+    <tree-range-m alias="/params/forest/tree-range-m"/>
+    <tree-height-m>50.0</tree-height-m>
+    <tree-width-m>55.0</tree-width-m>
+    <rolling-friction>0.8</rolling-friction>
+    <bumpiness>0.85</bumpiness>
+  </material>
+
+  <material>  
+    <name>EvergreenBroadCover</name>
+    <name>EvergreenForest</name>
+    <name>MixedCropPastureCover</name>
+    <name>MixedCrop</name>
+		<name>Grassland</name>
+    <name>GrassCover</name>
+    <effect>Effects/forest</effect>
+    <texture-set>
+      <texture>Terrain/savanna-grass.png</texture>      
+      <texture n="11">Terrain/savanna-grass2.png</texture>
+      <texture n="15">Terrain/airport_grass2.png</texture>
+    </texture-set>
+		<parameters>
+			<grain_strength>0.5</grain_strength>			
+			<hires_overlay_bias>0.1</hires_overlay_bias>
+		</parameters>
+    <xsize>2000</xsize>
+    <ysize>2000</ysize>
+    <light-coverage>900000000.0</light-coverage>
+    <wood-coverage>80000.0</wood-coverage>
+    <tree-texture>Trees/savanna-trees.png</tree-texture> 
+    <tree-varieties>4</tree-varieties>
+    <tree-range-m alias="/params/forest/tree-range-m"/>
+    <tree-height-m>50.0</tree-height-m>
+    <tree-width-m>55.0</tree-width-m>
+    <rolling-friction>0.4</rolling-friction>
+    <bumpiness>0.65</bumpiness>
+  </material>
+
+  <material>  
+    <name>ShrubCover</name>
+    <name>ShrubGrassCover</name>
+    <name>ScrubCover</name>
+    <name>Scrub</name>
+    <name>Marsh</name>
+    <name>FloodLand</name>
+    <name>SaltMarsh</name>
+    <name>HerbWetlandCover</name>
+    <name>WoodedWetlandCover</name>
+    <effect>Effects/forest</effect>
+    <texture-set>
+      <texture>Terrain/savanna-grass.png</texture>
+      <texture n="11">Terrain/savanna-overlay.png</texture>
+      <texture n="15">Terrain/airport_grass2.png</texture>
+    </texture-set>
+		<parameters>
+			<grain_strength>0.5</grain_strength>			
+			<hires_overlay_bias>-0.18</hires_overlay_bias>
+		</parameters>
+    <xsize>4000</xsize>
+    <ysize>4000</ysize>
+    <light-coverage>900000000.0</light-coverage>
+    <wood-coverage>85000.0</wood-coverage>
+    <tree-texture>Trees/savanna-trees.png</tree-texture>
+    <tree-varieties>4</tree-varieties>
+    <tree-range-m alias="/params/forest/tree-range-m"/>
+    <tree-height-m>50.0</tree-height-m>
+    <tree-width-m>55.0</tree-width-m>
+    <rolling-friction>0.4</rolling-friction>
+    <bumpiness>0.65</bumpiness>
+  </material>
+
+	<material>  
+    <name>DryCropPastureCover</name>
+    <name>DryCrop</name>
+    <effect>Effects/forest</effect>
+    <texture-set>
+      <texture>Terrain/savanna-grass.png</texture>
+      <texture n="11">Terrain/savanna-overlay.png</texture>
+      <texture n="15">Terrain/airport_grass2.png</texture>
+    </texture-set>
+		<parameters>
+			<grain_strength>0.5</grain_strength>			
+			<hires_overlay_bias>-0.18</hires_overlay_bias>
+		</parameters>
+    <xsize>2000</xsize>
+    <ysize>2000</ysize>
+    <light-coverage>900000000.0</light-coverage>
+    <wood-coverage>90000.0</wood-coverage>
+    <tree-texture>Trees/savanna-trees.png</tree-texture>
+    <tree-varieties>4</tree-varieties>
+    <tree-range-m alias="/params/forest/tree-range-m"/>
+    <tree-height-m>50.0</tree-height-m>
+    <tree-width-m>55.0</tree-width-m>
+    <rolling-friction>0.4</rolling-friction>
+    <bumpiness>0.65</bumpiness>
+  </material>
+
+</PropertyList>

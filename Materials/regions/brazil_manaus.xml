@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!-- Regional definitions for Manaus, Brazil. Its problem is that the city actually consists of grass only! This is a hack to bring the city back :) -->
+
+<PropertyList>
+  <name>Manaus</name>
+
+  <area>
+    <lat1>-2.8</lat1>
+    <lat2>-3.2</lat2>
+    <lon1>-60.1</lon1>
+    <lon2>-59.8</lon2>
+  </area>
+
+  <material>
+    <name>Scrub</name>
+    <name>ScrubCover</name>
+    <name>Grassland</name>
+    
+    <effect>Effects/urban</effect>
+    <texture-set>
+      <texture>Terrain/latin_american_city1.png</texture>
+      <texture n="2">Terrain/latin_american_city1-relief-light.png</texture>
+    </texture-set>
+    <object-mask>Terrain/latin_american_city1.mask.png</object-mask>
+    <xsize>1000</xsize>
+    <ysize>1000</ysize>
+    <light-coverage>100000.0</light-coverage>
+    <emissive>
+      <r>0.05</r>
+      <g>0.05</g>
+      <b>0.02</b>
+      <a>1.0</a>
+    </emissive>
+    <object-group include="Materials/base/urban-buildings.xml"/>
+    <building-coverage>2500.0</building-coverage>
+    <building-small-ratio>0.4</building-small-ratio>
+    <building-small-min-floors>3</building-small-min-floors>
+    <building-small-max-width-m>30.0</building-small-max-width-m>
+    <building-small-min-depth-m>10.0</building-small-min-depth-m>
+    <building-small-max-depth-m>30.0</building-small-max-depth-m>
+    <building-medium-ratio>0.6</building-medium-ratio>
+    <building-large-ratio>0.2</building-large-ratio>
+    <wood-coverage>250000.0</wood-coverage>
+    <tree-texture>Trees/mixed-alt.png</tree-texture>
+    <tree-varieties>8</tree-varieties>
+    <tree-range-m alias="/params/forest/tree-range-m"/>
+    <tree-height-m>25.0</tree-height-m>
+    <tree-width-m>15.0</tree-width-m>
+  </material>
+
+</PropertyList>
