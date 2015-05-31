@@ -10,10 +10,17 @@
   </area>
 
   <area>
-		<lon1>-14.9</lon1>
+		<lon1>-18.0</lon1>
 		<lon2>60.1</lon2>
 		<lat1>33.9</lat1>
-		<lat2>2.4</lat2>
+		<lat2>15.0</lat2>
+  </area>
+  
+  <area>
+		<lon1>39.4</lon1>
+		<lon2>60.1</lon2>
+		<lat1>15.0</lat1>
+		<lat2>-2.4</lat2>
   </area>
 
   <material>
