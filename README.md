@@ -14,4 +14,6 @@ Development thread: http://forum.flightgear.org/viewtopic.php?f=5&t=26031
 
 ![My image](http://s17.postimg.org/rou7fla7j/fgfs_screen_003.png)
 
+![My image](http://s16.postimg.org/ceifwk61h/fgfs_screen_002.png)
+
 By Gilberto Agostinho (gsagostinho).
