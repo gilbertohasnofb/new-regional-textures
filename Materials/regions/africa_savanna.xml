@@ -14,7 +14,7 @@
     <name>RainForest</name>
     <name>MixedForestCover</name>
     <name>MixedForest</name>
-    <name>DeciduousBroadCover</name> <!-- these sholdn't be in Africa, but I've come across them there -->
+    <name>DeciduousBroadCover</name> <!-- these sholdn't be in Africa, but I've came across them there -->
     <name>DeciduousForest</name>
     <name>DeciduousNeedleCover</name>
     <effect>Effects/forest</effect>

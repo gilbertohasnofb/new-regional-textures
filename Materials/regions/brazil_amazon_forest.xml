@@ -43,6 +43,9 @@
   
   <material>
     <name>MixedCrop</name>
+    <name>MixedCropPastureCover</name>
+    <name>DryCropPastureCover</name>
+    <name>DryCrop</name>
     <effect>Effects/forest</effect>
     <texture-set>
       <texture>Terrain/rainforest-hawaii.png</texture>
