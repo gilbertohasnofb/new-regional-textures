@@ -77,6 +77,26 @@
     <friction-factor>0.7</friction-factor>
     <bumpiness>0.1</bumpiness>
   </material>
+  
+  <material>
+    <name>Lava</name>
+    <name>Burnt</name>
+    <texture-set>
+      <texture>Terrain/sand6.png</texture>
+      <texture n="11">Terrain/lava2.png</texture>
+      <texture n="12">Terrain/rocks-desert.png</texture>
+    </texture-set>
+    <parameters>
+      <hires_overlay_bias>0.1</hires_overlay_bias>
+    </parameters>
+    <xsize>2000</xsize>
+    <ysize>2000</ysize>
+    <light-coverage>10000000.0</light-coverage>
+    <shininess>2.5</shininess>
+    <rolling-friction>0.1</rolling-friction>
+    <friction-factor>0.7</friction-factor>
+    <bumpiness>0.1</bumpiness>
+  </material>
 
   <material>
     <effect>Effects/landmass-scrub</effect>
