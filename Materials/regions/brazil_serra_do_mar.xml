@@ -65,10 +65,9 @@
     <name>RainForest</name>
     <name>EvergreenBroadCover</name>
     <name>EvergreenForest</name>
-    <name>MixedCropPastureCover</name>
-    <name>MixedCrop</name>
-		<name>Grassland</name>
-    <name>GrassCover</name>
+    <name>DeciduousBroadCover</name>
+    <name>DeciduousForest</name>
+    <name>DeciduousNeedleCover</name>    
     <effect>Effects/forest</effect>
     <texture-set>
       <texture>Terrain/rainforest-hawaii.png</texture>

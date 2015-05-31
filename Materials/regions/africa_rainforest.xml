@@ -77,10 +77,6 @@
     <name>SaltMarsh</name>
     <name>HerbWetlandCover</name>
     <name>WoodedWetlandCover</name>
-    <name>Grass</name>
-    <name>Airport</name>
-    <name>AirportKeep</name>
-    <name>Greenspace</name>
     <effect>Effects/forest</effect>
     <texture-set>
       <texture>Terrain/rainforest-hawaii.png</texture>      

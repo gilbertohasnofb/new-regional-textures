@@ -14,7 +14,10 @@
     <name>MixedForest</name>
     <name>RainForest</name>
     <name>EvergreenBroadCover</name>
-    <name>EvergreenForest</name>    
+    <name>EvergreenForest</name>     
+    <name>DeciduousBroadCover</name>
+    <name>DeciduousForest</name>
+    <name>DeciduousNeedleCover</name>
     <texture-set>
       <texture>Terrain/rainforest-hawaii.png</texture>
       <texture n="11">Terrain/rainforest-hawaii.png</texture>
