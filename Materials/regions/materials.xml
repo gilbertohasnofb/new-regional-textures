@@ -58,9 +58,6 @@
 <region include="Materials/regions/south_africa.xml"/>
 <region include="Materials/regions/madagascar.xml"/>
 
-<!-- Middle East-->
-<region include="Materials/regions/middle_east.xml"/>
-
 <!-- Europe -->
 <region include="Materials/regions/europe.xml"/>
 <region include="Materials/regions/scandinavia.xml"/>
@@ -69,5 +66,9 @@
 <region include="Materials/regions/corse.xml"/>
 <region include="Materials/regions/iceland.xml"/>
 <region include="Materials/regions/mediterranean_cities.xml"/> <!-- added by gsagostinho. These cities also apply to Northern Africa and Middle East -->
+
+<!-- Middle East-->
+<region include="Materials/regions/middle_east.xml"/>
+<region include="Materials/regions/middle_east_cities.xml"/>  <!-- added by gsagostinho -->
 
 </PropertyList>

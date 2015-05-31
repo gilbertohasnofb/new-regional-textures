@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<!-- Regional definitions for some few large cities in the Middle East. All others will have the Mediterranean cities -->
+<PropertyList>
+  <name>Middle East cities</name>
+
+  <area> <!-- Cairo -->
+    <lon1>30.96</lon1>
+    <lon2>31.55</lon2>
+    <lat1>30.40</lat1>
+    <lat2>29.64</lat2>
+  </area>
+  
+  <area> <!-- Tehran -->
+    <lon1>49.82</lon1>
+    <lon2>52.01</lon2>
+    <lat1>36.44</lat1>
+    <lat2>35.15</lat2>
+  </area>
+
+  <area> <!-- Riyadh -->
+    <lon1>46.44</lon1>
+    <lon2>46.94</lon2>
+    <lat1>24.87</lat1>
+    <lat2>24.43</lat2>
+  </area>
+
+  <area> <!-- Ankara -->
+    <lon1>32.62</lon1>
+    <lon2>33.09</lon2>
+    <lat1>40.24</lat1>
+    <lat2>39.84</lat2>
+  </area>
+
+  <area> <!-- Jeddah -->
+    <lon1>38.96</lon1>
+    <lon2>39.54</lon2>
+    <lat1>21.86</lat1>
+    <lat2>21.16</lat2>
+  </area>
+
+  <area> <!-- Kuwait City -->
+    <lon1>47.55</lon1>
+    <lon2>48.40</lon2>
+    <lat1>29.54</lat1>
+    <lat2>28.89</lat2>
+  </area>
+
+  <area> <!-- Tel Aviv and Gaza-->
+    <lon1>34.46</lon1>
+    <lon2>35.02</lon2>
+    <lat1>32.69</lat1>
+    <lat2>31.55</lat2>
+  </area>
+
+  <area> <!-- Dubai -->
+    <lon1>55.58</lon1>
+    <lon2>55.17</lon2>
+    <lat1>25.50</lat1>
+    <lat2>25.13</lat2>
+  </area>
+
+  <material>
+    <name>BuiltUpCover</name>
+    <name>Urban</name>
+    <effect>Effects/urban</effect>
+    <texture-set>
+      <texture>Terrain/city1-middle-east.png</texture>
+      <texture n="2">Terrain/city1-relief-light.png</texture>
+    </texture-set>
+    <texture-set>
+      <texture>Terrain/city2-middle-east.png</texture>
+      <texture n="2">Terrain/city2-relief-light.png</texture>
+    </texture-set>
+    <object-mask>Terrain/city1.mask.png</object-mask>
+    <object-mask>Terrain/city2.mask.png</object-mask>
+    <xsize>1000</xsize>
+    <ysize>1000</ysize>
+    <light-coverage>100000.0</light-coverage>
+    <emissive>
+      <r>0.05</r>
+      <g>0.05</g>
+      <b>0.02</b>
+      <a>1.0</a>
+    </emissive>
+    <object-group include="Materials/base/urban-buildings.xml"/>
+    <building-coverage>2500.0</building-coverage>
+    <building-small-ratio>0.4</building-small-ratio>
+    <building-small-min-floors>3</building-small-min-floors>
+    <building-small-max-width-m>30.0</building-small-max-width-m>
+    <building-small-min-depth-m>10.0</building-small-min-depth-m>
+    <building-small-max-depth-m>30.0</building-small-max-depth-m>
+    <building-medium-ratio>0.6</building-medium-ratio>
+    <building-large-ratio>0.2</building-large-ratio>
+    <wood-coverage>250000.0</wood-coverage>
+    <tree-texture>Trees/tropical-alt.png</tree-texture>
+    <tree-varieties>8</tree-varieties>
+    <tree-range-m alias="/params/forest/tree-range-m"/>
+    <tree-height-m>25.0</tree-height-m>
+    <tree-width-m>15.0</tree-width-m>
+  </material>
+
+  <material>
+    <texture-set>
+      <texture>Terrain/city1-middle-east.png</texture>
+      <texture n="2">Terrain/city1-relief-light.png</texture>
+    </texture-set>
+    <texture-set>
+      <texture>Terrain/city2-middle-east.png</texture>
+      <texture n="2">Terrain/city2-relief-light.png</texture>
+    </texture-set>
+    <object-mask>Terrain/city1.mask.png</object-mask>
+    <object-mask>Terrain/city2.mask.png</object-mask>
+    <xsize>1000</xsize>
+    <ysize>1000</ysize>
+    <light-coverage>100000.0</light-coverage>
+    <emissive>
+      <r>0.05</r>
+      <g>0.05</g>
+      <b>0.02</b>
+      <a>1.0</a>
+    </emissive>
+    <object-group include="Materials/base/industrial-buildings.xml"/>
+  </material>
+
+</PropertyList>
