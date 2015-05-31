@@ -2,6 +2,7 @@
 <!-- Regional definitions for the Northern Africa -->
 <PropertyList>
   <name>African mediterranean</name>
+  
   <area>
 		<lon1>-10.02</lon1>
 		<lon2>-3.69</lon2>

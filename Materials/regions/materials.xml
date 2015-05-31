@@ -68,5 +68,6 @@
 <region include="Materials/regions/ireland.xml"/>
 <region include="Materials/regions/corse.xml"/>
 <region include="Materials/regions/iceland.xml"/>
+<region include="Materials/regions/mediterranean_cities.xml"/> <!-- added by gsagostinho. These cities also apply to Northern Africa and Middle East -->
 
 </PropertyList>
