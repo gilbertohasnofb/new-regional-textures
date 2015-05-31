@@ -1,100 +1,26 @@
 <?xml version="1.0"?>
-<!-- Regional definitions for the African deserts, based on the Middle East regions -->
 <PropertyList>
-  <name>African desert</name>
+  <name>Middle East</name>
   <area>
-		<lon1>10.6</lon1>
-		<lon2>21.6</lon2>
-		<lat1>-13.0</lat1>
-		<lat2>-31.6</lat2>
+    <lon1>45.0</lon1>
+    <lon2>65.0</lon2>
+    <lat1>10.0</lat1>
+    <lat2>40.0</lat2>
   </area>
 
   <area>
-		<lon1>-18.0</lon1>
-		<lon2>60.1</lon2>
-		<lat1>33.9</lat1>
-		<lat2>15.0</lat2>
-  </area>
-  
-  <area>
-		<lon1>39.4</lon1>
-		<lon2>60.1</lon2>
-		<lat1>15.0</lat1>
-		<lat2>-2.4</lat2>
+    <lon1>33.5</lon1>
+    <lon2>45.0</lon2>
+    <lat1>10.0</lat1>
+    <lat2>35.0</lat2>
   </area>
 
-  <material>
-    <name>Grass</name>
-    <name>Airport</name>
-    <name>AirportKeep</name>
-    <name>Greenspace</name>
-    <texture-set>
-      <texture>Terrain/sand6.png</texture>
-      <texture n="11">Terrain/sand5.png</texture>
-      <texture n="12">Terrain/rocks-desert.png</texture>
-      <texture n="15">Terrain/sand_hires_ochre.png</texture>
-    </texture-set>
-    <parameters>
-      <hires_overlay_bias>-0.1</hires_overlay_bias>
-      <dot_density>0.2</dot_density>
-    </parameters>
-    <xsize>2000</xsize>
-    <ysize>2000</ysize>
-    <light-coverage>4000000.0</light-coverage>
-    <diffuse>
-      <r>0.93</r>
-      <g>0.95</g>
-      <b>0.93</b>
-      <a>1.0</a>
-    </diffuse>
-    <specular>
-      <r>0.1</r>
-      <g>0.12</g>
-      <b>0.1</b>
-      <a>1.0</a>
-    </specular>
-    <shininess>1.2</shininess>
-    <solid>1</solid>
-    <friction-factor>0.7</friction-factor>
-    <rolling-friction>0.1</rolling-friction>
-    <bumpiness>0.1</bumpiness>
-    <load-resistance>1e30</load-resistance>
-  </material>
-
-  <material>
-    <name>DryLake</name>
-    <name>IntermittentReservoir</name>
-    <name>IntermittentLake</name>
-    <texture-set>
-      <texture>Terrain/sand4.png</texture>
-      <texture n="11">Terrain/sand_hires.png</texture>
-      <texture n="12">Terrain/sand1.png</texture>
-      <texture n="15">Terrain/sand_hires_ochre.png</texture>
-    </texture-set>
-    <texture-set>
-      <texture>Terrain/sand5.png</texture>
-      <texture n="11">Terrain/sand_hires.png</texture>
-      <texture n="12">Terrain/sand1.png</texture>
-      <texture n="15">Terrain/sand_hires_ochre.png</texture>
-    </texture-set>
-    <texture-set>
-      <texture>Terrain/sand6.png</texture>
-      <texture n="11">Terrain/sand_hires.png</texture>
-      <texture n="12">Terrain/sand1.png</texture>
-      <texture n="15">Terrain/sand_hires_ochre.png</texture>
-    </texture-set>
-    <parameters>
-      <hires_overlay_bias>-0.03</hires_overlay_bias>
-      <dot_density>0.2</dot_density>
-    </parameters>
-    <xsize>2000</xsize>
-    <ysize>2000</ysize>
-    <light-coverage>10000000.0</light-coverage>
-    <shininess>2.5</shininess>
-    <rolling-friction>0.1</rolling-friction>
-    <friction-factor>0.7</friction-factor>
-    <bumpiness>0.1</bumpiness>
-  </material>
+  <condition>
+    <equals>
+      <property>sim/startup/season</property>
+      <value>summer</value>
+    </equals>
+  </condition>
 
   <material>
     <name>Landmass</name>
@@ -102,60 +28,14 @@
     <name>Island</name>
     <name>Default</name>
     <texture-set>
-      <texture>Terrain/sand6.png</texture>
-      <texture n="11">Terrain/sand5.png</texture>
-      <texture n="12">Terrain/rocks-desert.png</texture>
-      <texture n="15">Terrain/sand_hires_ochre.png</texture>
-    </texture-set>
-    <parameters>
-      <hires_overlay_bias>-0.1</hires_overlay_bias>
-      <dot_density>0.2</dot_density>
-    </parameters>
-    <xsize>2000</xsize>
-    <ysize>2000</ysize>
-    <light-coverage>10000000.0</light-coverage>
-    <shininess>2.5</shininess>
-    <rolling-friction>0.1</rolling-friction>
-    <friction-factor>0.7</friction-factor>
-    <bumpiness>0.1</bumpiness>
-  </material>
-  
-  <material>
-    <name>Lava</name>
-    <name>Burnt</name>
-    <texture-set>
-      <texture>Terrain/sand6.png</texture>
-      <texture n="11">Terrain/lava2.png</texture>
+      <texture>Terrain/dirtrock_dark.png</texture>
+      <texture n="11">Terrain/sand_hires_ochre.png</texture>
       <texture n="12">Terrain/rocks-desert.png</texture>
       <texture n="15">Terrain/sand_hires_ochre.png</texture>
     </texture-set>
     <parameters>
       <hires_overlay_bias>0.1</hires_overlay_bias>
-    </parameters>
-    <xsize>2000</xsize>
-    <ysize>2000</ysize>
-    <light-coverage>10000000.0</light-coverage>
-    <shininess>2.5</shininess>
-    <rolling-friction>0.1</rolling-friction>
-    <friction-factor>0.7</friction-factor>
-    <bumpiness>0.1</bumpiness>
-  </material>
-  
-  <material>
-    <name>BarrenCover</name>
-    <name>Dirt</name>
-    <name>OpenMining</name>
-    <name>Rock</name>
-    <name>Dump</name>
-    <texture-set>
-      <texture>Terrain/sand5.png</texture>
-      <texture n="11">Terrain/rocks-desert.png</texture>
-      <texture n="12">Terrain/rocks-desert.png</texture>
-      <texture n="15">Terrain/sand_hires_ochre.png</texture>
-    </texture-set>
-    <parameters>
-      <hires_overlay_bias>0</hires_overlay_bias>
-      <dot_density>0.2</dot_density>
+      <dot_density>0.4</dot_density>
     </parameters>
     <xsize>2000</xsize>
     <ysize>2000</ysize>
@@ -174,26 +54,13 @@
     <name>Scrub</name>
     <name>Sclerophyllous</name>
     <texture-set>
-      <texture>Terrain/sand4.png</texture>
-      <texture n="11">Terrain/sand_hires.png</texture>
-      <texture n="12">Terrain/shrub3.png</texture>
-      <texture n="15">Terrain/sand_hires_ochre.png</texture>
-    </texture-set>
-    <texture-set>
-      <texture>Terrain/sand5.png</texture>
-      <texture n="11">Terrain/sand_hires.png</texture>
-      <texture n="12">Terrain/shrub2.png</texture>
-      <texture n="15">Terrain/sand_hires_ochre.png</texture>
-    </texture-set>
-    <texture-set>
-      <texture>Terrain/sand6.png</texture>
-      <texture n="11">Terrain/sand_hires.png</texture>
-      <texture n="12">Terrain/shrub1.png</texture>
-      <texture n="15">Terrain/sand_hires_ochre.png</texture>
+      <texture>Terrain/shrub1_dark.png</texture>
+      <texture n="11">Terrain/sand_hires_ochre.png</texture>
+      <texture n="12">Terrain/dirtrock_dark.png</texture>
+      <texture n="15">Terrain/airport_grass2.png</texture>
     </texture-set>
     <parameters>
-      <hires_overlay_bias>-0.03</hires_overlay_bias>
-      <dot_density>0.2</dot_density>
+      <hires_overlay_bias>-0.1</hires_overlay_bias>
     </parameters>
     <xsize>2000</xsize>
     <ysize>2000</ysize>
@@ -211,7 +78,7 @@
     </specular>
     <shininess>1.2</shininess>
     <light-coverage>20000000.0</light-coverage>
-    <wood-coverage>30000.0</wood-coverage>
+    <wood-coverage>12000.0</wood-coverage>
     <tree-texture>Trees/mixed-shrub.png</tree-texture>
     <tree-varieties>8</tree-varieties>
     <tree-range-m alias="/params/forest/tree-range-m"/>
