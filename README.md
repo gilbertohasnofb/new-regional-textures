@@ -2,7 +2,7 @@
 New Regional Textures for FlightGear
 ====================================
 
-This project aims to create new regional textures, particularly for the Southern Hemisphere.
+This project aims to create new regional textures, particularly for the Southern Hemisphere. This is a project on development, so use it at your own risk. I would suggest backing up your Materials and Textures folders since some of those files will be overwritten. 
 
 Development thread: http://forum.flightgear.org/viewtopic.php?f=5&t=26031
 
