@@ -49,7 +49,10 @@
     <name>Construction</name>
     <name>Industrial</name>
     <name>Port</name>
-    <texture>Terrain/latin_american_city1.png</texture>
+    <texture-set>
+      <texture>Terrain/latin_american_city1.png</texture>
+      <texture n="2">Terrain/latin_american_city1-relief-light.png</texture>
+    </texture-set>
     <object-mask>Terrain/latin_american_city1.mask.png</object-mask>
     <xsize>1000</xsize>
     <ysize>1000</ysize>

@@ -55,6 +55,7 @@
 <region include="Materials/regions/africa_desert.xml"/> <!-- added by gsagostinho -->
 <region include="Materials/regions/africa_rainforest.xml"/> <!-- added by gsagostinho -->
 <region include="Materials/regions/africa_mediterranean.xml"/> <!-- added by gsagostinho -->
+<region include="Materials/regions/africa_kilimanjaro.xml"/> <!-- added by gsagostinho -->
 <region include="Materials/regions/south_africa.xml"/>
 <region include="Materials/regions/madagascar.xml"/>
 
