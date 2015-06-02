@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<PropertyList>
+  <name>Pantanal</name>
+
+  <area>
+    <lon1>-55.44</lon1>
+    <lon2>-59.60</lon2>
+    <lat1>-15.80</lat1>
+    <lat2>-20.78</lat2>
+  </area>
+
+  <material>
+    <name>MixedForestCover</name>
+    <name>MixedForest</name>
+    <name>RainForest</name> 
+    <name>DeciduousBroadCover</name>
+    <name>DeciduousForest</name>
+    <name>DeciduousNeedleCover</name>
+    <effect>Effects/forest</effect>
+    <texture-set>
+      <texture>Terrain/rainforest-hires.png</texture>
+      <texture n="11">Terrain/rainforest-hires.png</texture>
+    </texture-set>
+    <xsize>2000</xsize>
+    <ysize>2000</ysize>
+    <light-coverage>900000000.0</light-coverage>
+    <wood-coverage>4000.0</wood-coverage>
+    <tree-texture>Trees/tropical-alt2.png</tree-texture> 
+    <tree-varieties>8</tree-varieties>
+    <tree-range-m alias="/params/forest/tree-range-m"/>
+    <tree-height-m>25.0</tree-height-m>
+    <tree-width-m>20.0</tree-width-m>
+    <rolling-friction>1</rolling-friction>
+    <bumpiness>1</bumpiness>
+  </material>
+  
+  <material>
+    <name>EvergreenBroadCover</name>
+    <name>EvergreenForest</name>
+		<name>Grassland</name>
+    <name>GrassCover</name>
+    <name>ShrubCover</name>
+    <name>ShrubGrassCover</name>
+    <name>ScrubCover</name>
+    <name>Scrub</name>
+    <name>Marsh</name>
+    <name>FloodLand</name>
+    <name>SaltMarsh</name>
+    <name>HerbWetlandCover</name>
+    <name>WoodedWetlandCover</name>
+    <effect>Effects/forest</effect>
+    <texture-set>
+      <texture>Terrain/rainforest-hires.png</texture>
+      <texture n="11">Terrain/pantanal.png</texture>
+    </texture-set>
+		<parameters>
+			<grain_strength>0.5</grain_strength>			
+			<hires_overlay_bias>-0.06</hires_overlay_bias>
+		</parameters>
+    <xsize>8000</xsize>
+    <ysize>8000</ysize>
+    <light-coverage>900000000.0</light-coverage>
+    <wood-coverage>4000.0</wood-coverage>
+    <tree-texture>Trees/tropical-alt2.png</tree-texture>
+    <tree-varieties>8</tree-varieties>
+    <tree-range-m alias="/params/forest/tree-range-m"/>
+    <tree-height-m>25.0</tree-height-m>
+    <tree-width-m>30.0</tree-width-m>
+    <rolling-friction>1</rolling-friction>
+    <bumpiness>1</bumpiness>
+  </material>
+
+  <material>
+		<effect>Effects/agriculture</effect>  
+    <name>MixedCrop</name>
+    <name>MixedCropPastureCover</name>
+    <name>DryCropPastureCover</name>
+    <name>DryCrop</name>
+    <name>ComplexCrop</name>
+    <texture>Terrain/cerrado-crop.png</texture>
+    <parameters>
+      <rotation_flag>1</rotation_flag>
+      <rotation_scale>500.0</rotation_scale>
+    </parameters>
+    <xsize>2000</xsize>
+    <ysize>2000</ysize>
+    <light-coverage>900000000.0</light-coverage>
+    <wood-coverage>20000.0</wood-coverage>
+    <tree-texture>Trees/mixed-shrub.png</tree-texture>
+    <tree-varieties>8</tree-varieties>
+    <tree-range-m alias="/params/forest/tree-range-m"/>
+    <tree-height-m>15.0</tree-height-m>
+    <tree-width-m>20.0</tree-width-m>
+    <rolling-friction>0.7</rolling-friction>
+    <bumpiness>0.8</bumpiness>
+  </material>
+  
+  <material>
+    <name>Grass</name>
+    <name>Airport</name>
+    <name>AirportKeep</name>
+    <name>Greenspace</name>
+    <texture-set>
+      <texture>Terrain/grass_dry2.png</texture>      
+      <texture n="11">Terrain/shrub-hawaii-green.png</texture>
+      <texture n="15">Terrain/airport_grass2.png</texture>
+    </texture-set>
+		<parameters>
+			<grain_strength>0.5</grain_strength>			
+			<hires_overlay_bias>-0.1</hires_overlay_bias>
+		</parameters>
+    <xsize>2000</xsize>
+    <ysize>2000</ysize>
+    <light-coverage>4000000.0</light-coverage>
+    <diffuse>
+      <r>0.93</r>
+      <g>0.95</g>
+      <b>0.93</b>
+      <a>1.0</a>
+    </diffuse>
+    <specular>
+      <r>0.1</r>
+      <g>0.12</g>
+      <b>0.1</b>
+      <a>1.0</a>
+    </specular>
+    <shininess>1.2</shininess>
+    <solid>1</solid>
+    <friction-factor>0.7</friction-factor>
+    <rolling-friction>0.1</rolling-friction>
+    <bumpiness>0.1</bumpiness>
+    <load-resistance>1e30</load-resistance>
+  </material>
+
+</PropertyList>

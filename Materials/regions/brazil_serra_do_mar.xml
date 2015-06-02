@@ -70,8 +70,8 @@
     <name>DeciduousNeedleCover</name>    
     <effect>Effects/forest</effect>
     <texture-set>
-      <texture>Terrain/rainforest-hawaii.png</texture>
-      <texture n="11">Terrain/rainforest-hawaii.png</texture>
+      <texture>Terrain/rainforest-hires.png</texture>
+      <texture n="11">Terrain/rainforest-hires.png</texture>
     </texture-set>
     <xsize>2000</xsize>
     <ysize>2000</ysize>
@@ -98,8 +98,8 @@
     <name>WoodedWetlandCover</name>
     <effect>Effects/forest</effect>
     <texture-set>
-      <texture>Terrain/rainforest-hawaii.png</texture>
-      <texture n="11">Terrain/rainforest-hawaii.png</texture>
+      <texture>Terrain/rainforest-hires.png</texture>
+      <texture n="11">Terrain/rainforest-hires.png</texture>
     </texture-set>
     <xsize>2000</xsize>
     <ysize>2000</ysize>
@@ -121,8 +121,8 @@
     <name>DryCrop</name>
     <effect>Effects/forest</effect>
     <texture-set>
-      <texture>Terrain/rainforest-hawaii.png</texture>
-      <texture n="11">Terrain/rainforest-hawaii.png</texture>
+      <texture>Terrain/rainforest-hires.png</texture>
+      <texture n="11">Terrain/rainforest-hires.png</texture>
       <texture n="12">Terrain/dirtrock.png</texture>
     </texture-set>
     <xsize>2000</xsize>

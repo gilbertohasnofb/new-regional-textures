@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!-- Regional definitions for the Brazilian Amazon Forest (coast of Sao Paulo and Rio de Janeiro), based on Tropical South America regions -->
+<!-- Regional definitions for the Brazilian Amazon Forest, based on Tropical South America regions -->
 <PropertyList>
   <name>Amazon Forest</name>
 
@@ -28,8 +28,8 @@
     <name>DeciduousNeedleCover</name>
     <effect>Effects/forest</effect>
     <texture-set>
-      <texture>Terrain/rainforest-hawaii.png</texture>
-      <texture n="11">Terrain/rainforest-hawaii.png</texture>
+      <texture>Terrain/rainforest-hires.png</texture>
+      <texture n="11">Terrain/rainforest-hires.png</texture>
     </texture-set>
     <xsize>2000</xsize>
     <ysize>2000</ysize>
@@ -52,8 +52,8 @@
     <name>ComplexCrop</name>
     <effect>Effects/forest</effect>
     <texture-set>
-      <texture>Terrain/rainforest-hawaii.png</texture>
-      <texture n="11">Terrain/rainforest-hawaii.png</texture>
+      <texture>Terrain/rainforest-hires.png</texture>
+      <texture n="11">Terrain/rainforest-hires.png</texture>
       <texture n="12">Terrain/dirtrock.png</texture>
     </texture-set>
     <xsize>2000</xsize>
