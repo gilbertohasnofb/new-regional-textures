@@ -28,8 +28,8 @@
     <tree-texture>Trees/tropical-alt2.png</tree-texture> 
     <tree-varieties>8</tree-varieties>
     <tree-range-m alias="/params/forest/tree-range-m"/>
-    <tree-height-m>25.0</tree-height-m>
-    <tree-width-m>20.0</tree-width-m>
+    <tree-height-m>20.0</tree-height-m>
+    <tree-width-m>15.0</tree-width-m>
     <rolling-friction>1</rolling-friction>
     <bumpiness>1</bumpiness>
   </material>
@@ -49,23 +49,17 @@
     <name>HerbWetlandCover</name>
     <name>WoodedWetlandCover</name>
     <effect>Effects/forest</effect>
-    <texture-set>
-      <texture>Terrain/rainforest-hires.png</texture>
-      <texture n="11">Terrain/pantanal.png</texture>
-    </texture-set>
-		<parameters>
-			<grain_strength>0.5</grain_strength>			
-			<hires_overlay_bias>-0.06</hires_overlay_bias>
-		</parameters>
-    <xsize>8000</xsize>
-    <ysize>8000</ysize>
+    <texture>Terrain/pantanal.png</texture>
+		<object-mask>Terrain/pantanal-mask.png</object-mask>    
+    <xsize>4000</xsize>
+    <ysize>4000</ysize>
     <light-coverage>900000000.0</light-coverage>
     <wood-coverage>4000.0</wood-coverage>
     <tree-texture>Trees/tropical-alt2.png</tree-texture>
     <tree-varieties>8</tree-varieties>
     <tree-range-m alias="/params/forest/tree-range-m"/>
-    <tree-height-m>25.0</tree-height-m>
-    <tree-width-m>30.0</tree-width-m>
+    <tree-height-m>15.0</tree-height-m>
+    <tree-width-m>20.0</tree-width-m>
     <rolling-friction>1</rolling-friction>
     <bumpiness>1</bumpiness>
   </material>
@@ -82,15 +76,16 @@
       <rotation_flag>1</rotation_flag>
       <rotation_scale>500.0</rotation_scale>
     </parameters>
+    <object-mask>Terrain/cerrado-crop-mask.png</object-mask>    
     <xsize>2000</xsize>
     <ysize>2000</ysize>
     <light-coverage>900000000.0</light-coverage>
-    <wood-coverage>20000.0</wood-coverage>
-    <tree-texture>Trees/mixed-shrub.png</tree-texture>
+    <wood-coverage>3500.0</wood-coverage>
+    <tree-texture>Trees/tropical-alt2.png</tree-texture>
     <tree-varieties>8</tree-varieties>
     <tree-range-m alias="/params/forest/tree-range-m"/>
-    <tree-height-m>15.0</tree-height-m>
-    <tree-width-m>20.0</tree-width-m>
+    <tree-height-m>10.0</tree-height-m>
+    <tree-width-m>15.0</tree-width-m>
     <rolling-friction>0.7</rolling-friction>
     <bumpiness>0.8</bumpiness>
   </material>

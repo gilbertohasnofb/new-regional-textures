@@ -220,6 +220,7 @@
       <texture>Terrain/mixedcrop2.png</texture>
       <texture n="15">Terrain/sand_hires_ochre.png</texture>
     </texture-set>
+    <object-mask>Terrain/mixedcrop2-mask.png</object-mask>
     <xsize>2000</xsize>
     <ysize>2000</ysize>
     <light-coverage>2000000.0</light-coverage>
@@ -229,7 +230,7 @@
     <bumpiness>0.7</bumpiness>
     <load-resistance>1e30</load-resistance>
     <object-group include="Materials/base/farm-buildings.xml"/>
-    <wood-coverage>20000.0</wood-coverage>
+    <wood-coverage>3500.0</wood-coverage>
     <tree-texture>Trees/mixed-shrub.png</tree-texture>
     <tree-varieties>8</tree-varieties>
     <tree-range-m alias="/params/forest/tree-range-m"/>
