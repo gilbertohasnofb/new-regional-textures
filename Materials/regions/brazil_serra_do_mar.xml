@@ -58,6 +58,48 @@
     <lon1>-41.09</lon1>
     <lon2>-42.08</lon2>
   </area>
+  
+  <area>
+    <lon1>-33.30</lon1>
+    <lon2>-41.26</lon2>
+    <lat1>-20.06</lat1>
+    <lat2>-25.00</lat2>
+  </area>
+ 
+  <area>
+    <lon1>-33.30</lon1>
+    <lon2>-40.51</lon2>
+    <lat1>-19.46</lat1>
+    <lat2>-25.00</lat2>
+  </area>
+  
+  <area>
+    <lon1>-33.30</lon1>
+    <lon2>-39.89</lon2>
+    <lat1>-12.22</lat1>
+    <lat2>-25.00</lat2>
+  </area>
+  
+  <area>
+    <lon1>-33.30</lon1>
+    <lon2>-38.06</lon2>
+    <lat1>-10.14</lat1>
+    <lat2>-25.00</lat2>
+  </area>
+  
+  <area>
+    <lon1>-33.30</lon1>
+    <lon2>-36.39</lon2>
+    <lat1>-9.13</lat1>
+    <lat2>-25.00</lat2>
+  </area>
+  
+  <area>
+    <lon1>-31.00</lon1>
+    <lon2>-35.63</lon2>
+    <lat1>-3.00</lat1>
+    <lat2>-25.00</lat2>
+  </area>
 
   <material>  
     <name>MixedForestCover</name>

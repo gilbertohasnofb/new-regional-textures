@@ -13,9 +13,17 @@
   <area>
     <lon1>-59.5</lon1>
     <lon2>-47.0</lon2>
-    <lat1>6.4</lat1>
+    <lat1>11.0</lat1>
     <lat2>-13.0</lat2>
   </area>
+  
+  <area>
+    <lon1>-47.0</lon1>
+    <lon2>-43.5</lon2>
+    <lat1>11.0</lat1>
+    <lat2>-10.0</lat2>
+  </area>
+
 
   <material>
     <name>MixedForestCover</name>
