@@ -4,7 +4,7 @@
 
   <area>
     <lon1>-46.5</lon1>
-    <lon2>-34.50</lon2>
+    <lon2>-59.00</lon2>
     <lat1>-25.86</lat1>
     <lat2>-36.60</lat2>
   </area>
@@ -18,19 +18,21 @@
     <name>DeciduousNeedleCover</name>
     <effect>Effects/forest</effect>
     <texture-set>
-      <texture>Terrain/rainforest-hires.png</texture>
-      <texture n="11">Terrain/rainforest-hires.png</texture>
-	    <texture n="12">Terrain/cerrado-generic.png</texture>
+      <texture>Terrain/mixedforest-hires.png</texture>
+	    <texture n="11">Terrain/grass_marsh_hires.png</texture>
     </texture-set>
-    <xsize>2000</xsize>
-    <ysize>2000</ysize>
+		<parameters>
+			<hires_overlay_bias>-0.1</hires_overlay_bias>
+		</parameters>
+    <xsize>4000</xsize>
+    <ysize>4000</ysize>
     <light-coverage>900000000.0</light-coverage>
     <wood-coverage>6000.0</wood-coverage>
-    <tree-texture>Trees/tropical-alt2.png</tree-texture> 
+    <tree-texture>Trees/tropical.png</tree-texture> 
     <tree-varieties>8</tree-varieties>
     <tree-range-m alias="/params/forest/tree-range-m"/>
-    <tree-height-m>20.0</tree-height-m>
-    <tree-width-m>15.0</tree-width-m>
+    <tree-height-m>25.0</tree-height-m>
+    <tree-width-m>20.0</tree-width-m>
     <rolling-friction>1</rolling-friction>
     <bumpiness>1</bumpiness>
   </material>
@@ -41,17 +43,24 @@
 		<name>Grassland</name>
     <name>GrassCover</name>
     <effect>Effects/forest</effect>
-    <texture>Terrain/cerrado-generic.png</texture>
-		<object-mask>Terrain/cerrado-generic-mask.png</object-mask>    
-    <xsize>4000</xsize>
-    <ysize>4000</ysize>
+    <texture-set>
+	    <texture>Terrain/grass_marsh_hires.png</texture>
+	    <texture n="12">Terrain/grass_hires.png</texture>
+      <texture n="15">Terrain/airport_grass2.png</texture>
+    </texture-set>
+    <object-mask>Terrain/drycrop1.mask.png</object-mask>
+		<parameters>
+			<grain_strength>0.5</grain_strength>			
+		</parameters>
+    <xsize>1000</xsize>
+    <ysize>1000</ysize>
     <light-coverage>900000000.0</light-coverage>
-    <wood-coverage>4000.0</wood-coverage>
-    <tree-texture>Trees/tropical-alt2.png</tree-texture>
+    <wood-coverage>16000.0</wood-coverage>
+    <tree-texture>Trees/tropical.png</tree-texture>
     <tree-varieties>8</tree-varieties>
     <tree-range-m alias="/params/forest/tree-range-m"/>
-    <tree-height-m>10.0</tree-height-m>
-    <tree-width-m>10.0</tree-width-m>
+    <tree-height-m>20.0</tree-height-m>
+    <tree-width-m>20.0</tree-width-m>
     <rolling-friction>1</rolling-friction>
     <bumpiness>1</bumpiness>
   </material>
@@ -67,13 +76,21 @@
     <name>HerbWetlandCover</name>
     <name>WoodedWetlandCover</name>
     <effect>Effects/forest</effect>
-    <texture>Terrain/cerrado-scrub.png</texture>
-		<object-mask>Terrain/cerrado-scrub-mask.png</object-mask>    
+    <texture-set>
+	    <texture>Terrain/deciduous-hires.png</texture>
+	    <texture n="11">Terrain/grass_marsh_hires.png</texture>
+      <texture n="15">Terrain/airport_grass2.png</texture>
+    </texture-set>
+    <object-mask>Terrain/cerrado-crop2-mask.png</object-mask>    
+		<parameters>
+			<grain_strength>0.5</grain_strength>			
+			<hires_overlay_bias>-0.03</hires_overlay_bias>
+		</parameters>
     <xsize>4000</xsize>
     <ysize>4000</ysize>
     <light-coverage>900000000.0</light-coverage>
     <wood-coverage>4000.0</wood-coverage>
-    <tree-texture>Trees/tropical-alt2.png</tree-texture>
+    <tree-texture>Trees/tropical.png</tree-texture>
     <tree-varieties>8</tree-varieties>
     <tree-range-m alias="/params/forest/tree-range-m"/>
     <tree-height-m>10.0</tree-height-m>
@@ -85,19 +102,13 @@
   <material>
     <name>DryCropPastureCover</name>
     <name>DryCrop</name>
-    <texture-set>
-	    <texture>Terrain/cerrado-crop2.png</texture>
-      <texture n="11">Terrain/cerrado-shrub-green.png</texture>
-    </texture-set>
-		<parameters>
-			<hires_overlay_bias>-0.18</hires_overlay_bias>
-		</parameters>
+    <texture>Terrain/cerrado-crop2.png</texture>
     <object-mask>Terrain/cerrado-crop2-mask.png</object-mask>    
     <xsize>4000</xsize>
     <ysize>4000</ysize>
     <light-coverage>900000000.0</light-coverage>
     <wood-coverage>15000.0</wood-coverage>
-    <tree-texture>Trees/tropical-alt2.png</tree-texture>
+    <tree-texture>Trees/tropical.png</tree-texture>
     <tree-varieties>8</tree-varieties>
     <tree-range-m alias="/params/forest/tree-range-m"/>
     <tree-height-m>10.0</tree-height-m>
@@ -110,13 +121,13 @@
     <name>ComplexCrop</name>
     <name>MixedCrop</name>
     <name>MixedCropPastureCover</name>
-    <texture>Terrain/cerrado-crop.png</texture>
-    <object-mask>Terrain/cerrado-crop-mask.png</object-mask>    
+    <texture>Terrain/cerrado-crop2.png</texture>
+    <object-mask>Terrain/cerrado-crop2-mask.png</object-mask>    
     <xsize>4000</xsize>
     <ysize>4000</ysize>
     <light-coverage>900000000.0</light-coverage>
     <wood-coverage>3500.0</wood-coverage>
-    <tree-texture>Trees/tropical-alt2.png</tree-texture>
+    <tree-texture>Trees/tropical.png</tree-texture>
     <tree-varieties>8</tree-varieties>
     <tree-range-m alias="/params/forest/tree-range-m"/>
     <tree-height-m>10.0</tree-height-m>
@@ -131,13 +142,13 @@
     <name>AirportKeep</name>
     <name>Greenspace</name>
     <texture-set>
-      <texture>Terrain/grass_dry2.png</texture>      
-      <texture n="11">Terrain/shrub-hawaii-green.png</texture>
+      <texture>Terrain/grass.png</texture>      
+      <texture n="11">Terrain/grass.png</texture>
       <texture n="15">Terrain/airport_grass2.png</texture>
     </texture-set>
 		<parameters>
 			<grain_strength>0.5</grain_strength>			
-			<hires_overlay_bias>-0.1</hires_overlay_bias>
+			<hires_overlay_bias>-0.06</hires_overlay_bias>
 		</parameters>
     <xsize>2000</xsize>
     <ysize>2000</ysize>
