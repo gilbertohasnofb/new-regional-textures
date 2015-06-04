@@ -34,8 +34,8 @@
     <tree-texture>Trees/savanna-trees.png</tree-texture> 
     <tree-varieties>4</tree-varieties>
     <tree-range-m alias="/params/forest/tree-range-m"/>
-    <tree-height-m>50.0</tree-height-m>
-    <tree-width-m>55.0</tree-width-m>
+    <tree-height-m>20.0</tree-height-m>
+    <tree-width-m>25.0</tree-width-m>
     <rolling-friction>0.8</rolling-friction>
     <bumpiness>0.85</bumpiness>
   </material>
@@ -64,8 +64,8 @@
     <tree-texture>Trees/savanna-trees.png</tree-texture> 
     <tree-varieties>4</tree-varieties>
     <tree-range-m alias="/params/forest/tree-range-m"/>
-    <tree-height-m>50.0</tree-height-m>
-    <tree-width-m>55.0</tree-width-m>
+    <tree-height-m>20.0</tree-height-m>
+    <tree-width-m>25.0</tree-width-m>
     <rolling-friction>0.4</rolling-friction>
     <bumpiness>0.65</bumpiness>
   </material>
@@ -97,8 +97,8 @@
     <tree-texture>Trees/savanna-trees.png</tree-texture>
     <tree-varieties>4</tree-varieties>
     <tree-range-m alias="/params/forest/tree-range-m"/>
-    <tree-height-m>50.0</tree-height-m>
-    <tree-width-m>55.0</tree-width-m>
+    <tree-height-m>20.0</tree-height-m>
+    <tree-width-m>25.0</tree-width-m>
     <rolling-friction>0.4</rolling-friction>
     <bumpiness>0.65</bumpiness>
   </material>
@@ -123,8 +123,8 @@
     <tree-texture>Trees/savanna-trees.png</tree-texture>
     <tree-varieties>4</tree-varieties>
     <tree-range-m alias="/params/forest/tree-range-m"/>
-    <tree-height-m>50.0</tree-height-m>
-    <tree-width-m>55.0</tree-width-m>
+    <tree-height-m>20.0</tree-height-m>
+    <tree-width-m>25.0</tree-width-m>
     <rolling-friction>0.4</rolling-friction>
     <bumpiness>0.65</bumpiness>
   </material>
