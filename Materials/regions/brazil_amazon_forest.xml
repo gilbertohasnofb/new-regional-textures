@@ -134,7 +134,49 @@
     <tree-height-m>20.0</tree-height-m>
     <tree-width-m>25.0</tree-width-m>
   </material>
-
+  
+  <material>
+    <effect>Effects/cropgrass</effect>
+    <name>HerbTundra</name>
+    <name>HerbTundraCover</name>
+		<texture-set>
+			<texture>Terrain/tundra-hawaii.png</texture>
+			<texture n="11">Terrain/rainforest-patch.png</texture>
+			<texture n="12">Terrain/rainforest-hires.png</texture>
+			<texture n="15">Terrain/airport_grass2.png</texture>
+    </texture-set>
+		<parameters>
+			<grain_strength>0.5</grain_strength>			
+			<hires_overlay_bias>-0.1</hires_overlay_bias>		
+		</parameters>
+    <xsize>2000</xsize>
+    <ysize>2000</ysize>
+    <light-coverage>2000000.0</light-coverage>
+    <diffuse>
+      <r>0.93</r>
+      <g>0.95</g>
+      <b>0.93</b>
+      <a>1.0</a>
+    </diffuse>
+    <specular>
+      <r>0.1</r>
+      <g>0.12</g>
+      <b>0.1</b>
+      <a>1.0</a>
+    </specular>
+    <shininess>1.2</shininess>
+    <solid>1</solid>
+    <friction-factor>0.7</friction-factor>
+    <rolling-friction>0.1</rolling-friction>
+    <bumpiness>0.3</bumpiness>
+    <load-resistance>1e30</load-resistance>
+    <wood-coverage>25000.0</wood-coverage>
+    <tree-texture>Trees/tropical-alt2.png</tree-texture>
+    <tree-varieties>8</tree-varieties>
+    <tree-range-m alias="/params/forest/tree-range-m"/>
+    <tree-height-m>20.0</tree-height-m>
+    <tree-width-m>25.0</tree-width-m>
+  </material>
   
   <material>
     <name>Grass</name>

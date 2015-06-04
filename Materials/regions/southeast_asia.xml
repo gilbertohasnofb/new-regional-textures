@@ -45,6 +45,8 @@
     <name>BareTundraCover</name>
     <name>MixedTundraCover</name>
     <name>Cemetery</name>
+    <name>HerbTundra</name>
+    <name>HerbTundraCover</name>
     <effect>Effects/landmass-nowood</effect>
     <texture-set>
       <texture>Terrain/tundra-hawaii-green.png</texture>
@@ -121,6 +123,8 @@
     <name>DryCropPastureCover</name>
     <name>MixedCropPastureCover</name>
     <name>DryCrop</name>
+    <name>MixedCrop</name>
+    <name>ComplexCrop</name>
     <texture-set>
       <texture>Terrain/dry_pasture4.png</texture>
       <texture n="11">Terrain/rainforest-hires.png</texture>
