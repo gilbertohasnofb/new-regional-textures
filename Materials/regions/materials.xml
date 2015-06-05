@@ -41,7 +41,7 @@
 <region include="Materials/regions/brazil_brasilia.xml"/> <!-- added by gsagostinho -->
 <region include="Materials/regions/brazil_southern_cerrado.xml"/> <!-- added by gsagostinho -->
 <region include="Materials/regions/brazil_caatinga.xml"/> <!-- added by gsagostinho -->
-<region include="Materials/regions/brazil_serra_do_mar.xml"/> <!-- added by gsagostinho -->
+<region include="Materials/regions/brazil_mata_atlantica.xml"/> <!-- added by gsagostinho -->
 <region include="Materials/regions/brazil_amazon_forest.xml"/> <!-- added by gsagostinho -->
 <region include="Materials/regions/brazil_manaus.xml"/> <!-- added by gsagostinho -->
 <region include="Materials/regions/brazil_pantanal.xml"/> <!-- added by gsagostinho -->

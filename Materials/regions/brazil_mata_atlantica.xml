@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<!-- Regional definitions for the Brazilian Serra do Mar (coast of Sao Paulo and Rio de Janeiro), based on Tropical South America regions -->
+<!-- Regional definitions for the Brazilian Mata Atlantica, based on Tropical South America regions -->
 <PropertyList>
-  <name>Serra Do Mar</name>
+  <name>Mata Atlantica</name>
 
   <area>
     <lat1>-29.11</lat1>
@@ -138,11 +138,16 @@
     <name>SaltMarsh</name>
     <name>HerbWetlandCover</name>
     <name>WoodedWetlandCover</name>
+    <name>Grassland</name>
+    <name>GrassCover</name>
     <effect>Effects/forest</effect>
     <texture-set>
       <texture>Terrain/rainforest-hires.png</texture>
-      <texture n="11">Terrain/rainforest-hires.png</texture>
+			<texture n="11">Terrain/grass_dry2a.png</texture>
     </texture-set>
+		<parameters>
+			<hires_overlay_bias>-0.3</hires_overlay_bias>
+		</parameters>
     <xsize>2000</xsize>
     <ysize>2000</ysize>
     <light-coverage>5000000.0</light-coverage>
