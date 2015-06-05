@@ -114,7 +114,7 @@
     <texture-set>
       <texture>Terrain/rainforest-hires.png</texture>
       <texture n="11">Terrain/rainforest-hires.png</texture>
-      <texture n="13">Terrain/rock_red.png</texture>
+      <texture n="13">Terrain/rock_brown.png</texture>
     </texture-set>
     <xsize>2000</xsize>
     <ysize>2000</ysize>
@@ -145,7 +145,7 @@
     <texture-set>
       <texture>Terrain/rainforest-hires.png</texture>
 			<texture n="11">Terrain/grass_dry2a.png</texture>
-      <texture n="13">Terrain/rock_red.png</texture>
+      <texture n="13">Terrain/rock_brown.png</texture>
     </texture-set>
 		<parameters>
 			<hires_overlay_bias>-0.3</hires_overlay_bias>
@@ -173,7 +173,7 @@
       <texture>Terrain/rainforest-hires.png</texture>
       <texture n="11">Terrain/rainforest-hires.png</texture>
       <texture n="12">Terrain/dirtrock.png</texture>
-      <texture n="13">Terrain/rock_red.png</texture>
+      <texture n="13">Terrain/rock_brown.png</texture>
     </texture-set>
     <xsize>2000</xsize>
     <ysize>2000</ysize>
