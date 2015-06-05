@@ -21,6 +21,7 @@
     <texture-set>
       <texture>Terrain/savanna-grass.png</texture>
       <texture n="11">Terrain/savanna-overlay.png</texture>
+      <texture n="13">Terrain/rock_brown.png</texture>
       <texture n="15">Terrain/airport_grass2.png</texture>
     </texture-set>
 		<parameters>
@@ -51,6 +52,7 @@
     <texture-set>
       <texture>Terrain/savanna-grass2.png</texture>      
       <texture n="11">Terrain/savanna-grass.png</texture>
+      <texture n="13">Terrain/rock_brown.png</texture>
       <texture n="15">Terrain/airport_grass2.png</texture>
     </texture-set>
 		<parameters>
@@ -84,6 +86,7 @@
     <texture-set>
       <texture>Terrain/savanna-grass.png</texture>
       <texture n="11">Terrain/savanna-overlay.png</texture>
+      <texture n="13">Terrain/rock_brown.png</texture>
       <texture n="15">Terrain/airport_grass2.png</texture>
     </texture-set>
 		<parameters>
@@ -110,6 +113,7 @@
     <texture-set>
       <texture>Terrain/savanna-grass.png</texture>
       <texture n="11">Terrain/savanna-overlay.png</texture>
+      <texture n="13">Terrain/rock_brown.png</texture>
       <texture n="15">Terrain/airport_grass2.png</texture>
     </texture-set>
 		<parameters>

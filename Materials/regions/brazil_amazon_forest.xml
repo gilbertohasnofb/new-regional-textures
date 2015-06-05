@@ -44,6 +44,7 @@
     <texture-set>
       <texture>Terrain/rainforest-hires.png</texture>
       <texture n="11">Terrain/rainforest-hires.png</texture>
+      <texture n="13">Terrain/rock_red.png</texture>
     </texture-set>
     <xsize>2000</xsize>
     <ysize>2000</ysize>
@@ -73,6 +74,7 @@
       <texture>Terrain/rainforest-hires.png</texture>
 			<texture n="11">Terrain/rainforest-patch.png</texture>
 			<texture n="12">Terrain/grass_dry2a.png</texture>
+      <texture n="13">Terrain/rock_red.png</texture>
 			<texture n="15">Terrain/airport_grass2.png</texture>
     </texture-set>
 		<parameters>
@@ -99,6 +101,7 @@
 			<texture>Terrain/grass_dry2a.png</texture>
 			<texture n="11">Terrain/rainforest-patch.png</texture>
 			<texture n="12">Terrain/rainforest-hires.png</texture>
+      <texture n="13">Terrain/rock_red.png</texture>
 			<texture n="15">Terrain/airport_grass2.png</texture>
     </texture-set>
 		<parameters>
@@ -142,6 +145,7 @@
 			<texture>Terrain/tundra-hawaii.png</texture>
 			<texture n="11">Terrain/rainforest-patch.png</texture>
 			<texture n="12">Terrain/rainforest-hires.png</texture>
+      <texture n="13">Terrain/rock_red.png</texture>
 			<texture n="15">Terrain/airport_grass2.png</texture>
     </texture-set>
 		<parameters>

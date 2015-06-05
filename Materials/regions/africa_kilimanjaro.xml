@@ -16,6 +16,7 @@
     <texture-set>
       <texture>Terrain/rock_brown.png</texture>
       <texture n="11">Terrain/savanna-grass2.png</texture>
+      <texture n="13">Terrain/rock_brown.png</texture>      
     </texture-set>
 		<parameters>
 			<hires_overlay_bias>-0.18</hires_overlay_bias>
@@ -38,6 +39,7 @@
     <texture-set>
       <texture>Terrain/savanna-grass2.png</texture>      
       <texture n="11">Terrain/rock_brown.png</texture>
+      <texture n="13">Terrain/rock_brown.png</texture>
       <texture n="15">Terrain/airport_grass2.png</texture>
     </texture-set>
 		<parameters>
@@ -58,4 +60,3 @@
   </material>
 
 </PropertyList>
-
