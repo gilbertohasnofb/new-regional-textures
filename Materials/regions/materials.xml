@@ -46,6 +46,7 @@
 <region include="Materials/regions/brazil_manaus.xml"/> <!-- added by gsagostinho -->
 <region include="Materials/regions/brazil_pantanal.xml"/> <!-- added by gsagostinho -->
 <region include="Materials/regions/brazil_pampas.xml"/> <!-- added by gsagostinho -->
+<region include="Materials/regions/brazil_lencois.xml"/> <!-- added by gsagostinho -->
 
 <!-- Asia -->
 <region include="Materials/regions/asia.xml"/>

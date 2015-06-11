@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<PropertyList>
+  <name>Brazil: Lencois Maranhenses</name>
+
+  <area>
+    <lon1>-43.30</lon1>
+    <lon2>-42.80</lon2>
+    <lat1>-2.25</lat1>
+    <lat2>-2.75</lat2>
+  </area>
+
+  <material>
+    <name>Sand</name>
+    <texture-set>
+	    <texture>Terrain/dunes-lencois.png</texture>
+    </texture-set>
+    <xsize>4000</xsize>
+    <ysize>4000</ysize>
+    <light-coverage>900000000.0</light-coverage>
+    <rolling-friction>1</rolling-friction>
+    <bumpiness>1</bumpiness>
+  </material>
+  
+  <material>
+    <name>Scrub</name>
+    <texture-set>
+	    <texture>Terrain/dunes.png</texture>
+    	<texture n="11">Terrain/grass-caribbean.png</texture>
+    </texture-set>
+		<parameters>
+			<hires_overlay_bias>-0.07</hires_overlay_bias>
+		</parameters>
+    <xsize>4000</xsize>
+    <ysize>4000</ysize>
+    <light-coverage>900000000.0</light-coverage>
+    <rolling-friction>1</rolling-friction>
+    <bumpiness>1</bumpiness>
+  </material>
+  
+  
+  <material>
+    <name>Grassland</name>
+    <texture-set>
+	    <texture>Terrain/dunes.png</texture>
+    	<texture n="11">Terrain/grass-caribbean.png</texture>
+    </texture-set>
+		<parameters>
+			<hires_overlay_bias>0</hires_overlay_bias>
+		</parameters>
+    <xsize>4000</xsize>
+    <ysize>4000</ysize>
+    <light-coverage>900000000.0</light-coverage>
+    <rolling-friction>1</rolling-friction>
+    <bumpiness>1</bumpiness>
+  </material>
+
+</PropertyList>
