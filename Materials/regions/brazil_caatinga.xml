@@ -6,7 +6,7 @@
     <lon1>-42.00</lon1>
     <lon2>-34.00</lon2>
     <lat1>-2.00</lat1>
-    <lat2>-14.50</lat2>
+    <lat2>-14.0</lat2>
   </area>
 
   <material>
@@ -20,6 +20,7 @@
     <texture-set>
 	    <texture>Terrain/tundra-hawaii.png</texture>
     	<texture n="11">Terrain/dry_pasture4.png</texture>
+    	<texture n="13">Terrain/rock_red.png</texture>
     </texture-set>
 		<parameters>
 			<hires_overlay_bias>-0.18</hires_overlay_bias>
@@ -28,10 +29,11 @@
     <ysize>2000</ysize>
     <light-coverage>900000000.0</light-coverage>
     <wood-coverage>20000.0</wood-coverage>
+    <tree-texture>Trees/caatinga-trees.png</tree-texture>
     <tree-varieties>4</tree-varieties>
     <tree-range-m alias="/params/forest/tree-range-m"/>
-    <tree-height-m>12.0</tree-height-m>
-    <tree-width-m>12.0</tree-width-m>
+    <tree-height-m>8.0</tree-height-m>
+    <tree-width-m>8.0</tree-width-m>
     <rolling-friction>1</rolling-friction>
     <bumpiness>1</bumpiness>
   </material>
@@ -45,6 +47,7 @@
     <effect>Effects/forest</effect>
     <texture-set>
     	<texture>Terrain/gravel_red.png</texture>
+    	<texture n="13">Terrain/rock_red.png</texture>
     </texture-set>
     <xsize>2000</xsize>
     <ysize>2000</ysize>
@@ -69,6 +72,7 @@
     <texture-set>
     	<texture>Terrain/gravel_red.png</texture>
     	<texture n="11">Terrain/grass_dry2.png</texture>
+    	<texture n="13">Terrain/rock_red.png</texture>
     </texture-set>
 		<parameters>
 			<hires_overlay_bias>-0.1</hires_overlay_bias>
@@ -102,6 +106,7 @@
     	<texture>Terrain/tundra-hawaii.png</texture>
     	<texture n="11">Terrain/gravel_red.png</texture>
     	<texture n="12">Terrain/grass_dry2.png</texture>
+    	<texture n="13">Terrain/rock_red.png</texture>
     </texture-set>
 		<parameters>
 			<hires_overlay_bias>-0.07</hires_overlay_bias>
@@ -127,6 +132,7 @@
     <texture-set>
 	    <texture>Terrain/caatinga-crop.png</texture>
     	<texture n="11">Terrain/gravel_red.png</texture>
+    	<texture n="13">Terrain/rock_red.png</texture>
     </texture-set> 
 		<parameters>
 			<hires_overlay_bias>-0.12</hires_overlay_bias>
@@ -154,6 +160,7 @@
     <texture-set>
 	    <texture>Terrain/caatinga-crop.png</texture>
     	<texture n="11">Terrain/gravel_red.png</texture>
+    	<texture n="13">Terrain/rock_red.png</texture>
     </texture-set> 
 		<parameters>
 			<hires_overlay_bias>-0.12</hires_overlay_bias>
