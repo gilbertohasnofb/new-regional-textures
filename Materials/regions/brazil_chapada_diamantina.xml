@@ -27,7 +27,35 @@
     <xsize>2000</xsize>
     <ysize>2000</ysize>
     <light-coverage>900000000.0</light-coverage>
-    <wood-coverage>65000.0</wood-coverage>
+    <wood-coverage>5000.0</wood-coverage>
+    <tree-texture>Trees/caatinga-trees.png</tree-texture>
+    <tree-varieties>4</tree-varieties>
+    <tree-range-m alias="/params/forest/tree-range-m"/>
+    <tree-height-m>8.0</tree-height-m>
+    <tree-width-m>8.0</tree-width-m>
+    <rolling-friction>1</rolling-friction>
+    <bumpiness>1</bumpiness>
+  </material>
+  
+  <material>
+    <name>EvergreenBroadCover</name>
+    <name>EvergreenForest</name>
+		<name>Grassland</name>
+    <name>GrassCover</name>
+    <effect>Effects/forest</effect>
+    <texture-set>
+	    <texture>Terrain/tundra-hawaii.png</texture>
+    	<texture n="11">Terrain/pampas-grass-hires.png</texture>
+    	<texture n="13">Terrain/rock_red.png</texture>
+    </texture-set>
+		<parameters>
+			<hires_overlay_bias>-0.03</hires_overlay_bias>
+		</parameters>
+    <xsize>2000</xsize>
+    <ysize>2000</ysize>
+    <light-coverage>900000000.0</light-coverage>
+    <!-- <wood-coverage>6500.0</wood-coverage> --> <!-- use this value if mask works -->
+    <wood-coverage>10000.0</wood-coverage>
     <tree-texture>Trees/caatinga-trees.png</tree-texture>
     <tree-varieties>4</tree-varieties>
     <tree-range-m alias="/params/forest/tree-range-m"/>
