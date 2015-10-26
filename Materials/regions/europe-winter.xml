@@ -30,7 +30,7 @@
     <effect>Effects/urban</effect>
     <texture-set>
       <texture>Terrain.winter/18th_century_city-winter.png</texture>
-      <texture n="2">Terrain/18th_century_city-relief-light.png</texture>
+      <texture n="2">Terrain.winter/18th_century_city-winter-relief-light.png</texture>
     </texture-set>    
     <object-mask>Terrain/18th_century_city.mask.png</object-mask>
     <xsize>1000</xsize>
