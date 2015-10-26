@@ -70,6 +70,7 @@
 
 <!-- Europe -->
 <region include="Materials/regions/europe.xml"/>
+<region include="Materials/regions/europe-winter.xml"/> <!-- added by gsagostinho -->
 <region include="Materials/regions/scandinavia.xml"/>
 <region include="Materials/regions/united_kingdom.xml"/>
 <region include="Materials/regions/ireland.xml"/>

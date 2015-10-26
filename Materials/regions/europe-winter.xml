@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<!-- Regional definitions for Europe during winter -->
+<PropertyList>
+  <name>Europe winter</name>
+  <area>
+    <lon1>2.0</lon1>
+    <lon2>40.0</lon2>
+    <lat1>35.0</lat1>
+    <lat2>90.0</lat2>
+  </area>
+
+  <area>
+    <lon1>-20.0</lon1>
+    <lon2>40.0</lon2>
+    <lat1>35.0</lat1>
+    <lat2>49.8</lat2>
+  </area>
+
+  <condition>
+    <equals>
+      <property>sim/startup/season</property>
+      <value>winter</value>
+    </equals>
+  </condition>
+
+  <material>
+    <name>BuiltUpCover</name>
+    <name>Urban</name>
+    <tree-effect>Effects/tree-european-deciduous</tree-effect>
+    <effect>Effects/urban</effect>
+    <texture-set>
+      <texture>Terrain.winter/18th_century_city-winter.png</texture>
+      <texture n="2">Terrain/18th_century_city-relief-light.png</texture>
+    </texture-set>    
+    <object-mask>Terrain/18th_century_city.mask.png</object-mask>
+    <xsize>1000</xsize>
+    <ysize>1000</ysize>
+    <light-coverage>100000.0</light-coverage>
+    <emissive>
+      <r>0.05</r>
+      <g>0.05</g>
+      <b>0.02</b>
+      <a>1.0</a>
+    </emissive>
+    <object-group include="Materials/base/urban-buildings.xml"/>
+    <building-coverage>500.0</building-coverage>
+    <building-small-ratio>0.4</building-small-ratio>
+    <building-small-min-floors>3</building-small-min-floors>
+    <building-small-max-width-m>30.0</building-small-max-width-m>
+    <building-small-min-depth-m>10.0</building-small-min-depth-m>
+    <building-small-max-depth-m>30.0</building-small-max-depth-m>
+    <building-medium-ratio>0.6</building-medium-ratio>
+    <building-large-ratio>0.2</building-large-ratio>
+    <building-texture>Textures/buildings.png</building-texture>
+    <building-lightmap>Textures/buildings-lightmap.png</building-lightmap>
+    <wood-coverage>250000.0</wood-coverage>
+    <tree-texture>Trees/deciduous-alt.png</tree-texture>
+    <tree-varieties>8</tree-varieties>
+    <tree-range-m alias="/params/forest/tree-range-m"/>
+    <tree-height-m>15.0</tree-height-m>
+    <tree-width-m>10.0</tree-width-m>
+  </material>
+
+  <material>
+    <name>Town</name>
+    <name>SubUrban</name>
+    <effect>Effects/urban</effect>
+    <texture-set>
+      <texture>Terrain.winter/town-europe-winter.png</texture>
+      <texture n="2">Terrain/town-europe-relief-light.png</texture>
+    </texture-set>    
+    <object-mask>Terrain/town-europe.mask.png</object-mask>
+    <xsize>1024</xsize>
+    <ysize>1024</ysize>
+    <light-coverage>100000.0</light-coverage>
+    <emissive>
+      <r>0.05</r>
+      <g>0.05</g>
+      <b>0.02</b>
+      <a>1.0</a>
+    </emissive>
+    <object-group include="Materials/base/town-buildings.xml"/>
+    <building-coverage>500.0</building-coverage>
+    <building-small-ratio>0.9</building-small-ratio>
+    <building-medium-ratio>0.1</building-medium-ratio>
+    <building-large-ratio>0.0</building-large-ratio>
+    <building-medium-max-floors>4</building-medium-max-floors>
+    <building-texture>Textures/buildings.png</building-texture>
+    <building-lightmap>Textures/buildings-lightmap.png</building-lightmap>
+    <wood-coverage>1000.0</wood-coverage>
+    <tree-texture>Trees/deciduous-alt.png</tree-texture>
+    <tree-varieties>8</tree-varieties>
+    <tree-range-m alias="/params/forest/tree-range-m"/>
+    <tree-height-m>15.0</tree-height-m>
+    <tree-width-m>10.0</tree-width-m>
+  </material>
+
+</PropertyList>
