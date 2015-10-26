@@ -75,6 +75,7 @@
 <region include="Materials/regions/ireland.xml"/>
 <region include="Materials/regions/corse.xml"/>
 <region include="Materials/regions/iceland.xml"/>
+<region include="Materials/regions/norway.xml"/>  <!-- added by D-ECHO and gsagostinho -->
 
 <!-- Middle East-->
 <region include="Materials/regions/middle_east.xml"/>

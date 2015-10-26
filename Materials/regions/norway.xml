@@ -1,0 +1,465 @@
+<?xml version="1.0"?>
+<!-- Regional definitions for Norway -->
+<!-- by D-ECHO and gsagostinho -->
+<PropertyList>
+  <name>Norway</name>
+  <area>
+    <lon1>3.448532</lon1>
+    <lon2>11.485908</lon2>
+    <lat1>65.213670</lat1>
+    <lat2>57.973880</lat2>
+  </area>
+  <area>
+    <lon1>14.035696</lon1>
+    <lon2>10.580548</lon2>
+    <lat1>63.993561</lat1>
+    <lat2>68.545413</lat2>
+  </area>
+  <area>
+    <lon1>14.035696</lon1>
+    <lon2>17.823425</lon2>
+    <lat1>69.761495</lat1>
+    <lat2>66.461297</lat2>
+  </area>
+  <area>
+    <lon1>17.823425</lon1>
+    <lon2>31.767002</lon2>
+    <lat1>71.745332</lat1>
+    <lat2>68.470576</lat2>
+  </area>
+	<!--Runway textures: asphalt -->
+	<!--Taxiway-->
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_centerline</name>
+    <name>dirt_rwycenterline</name>
+    <texture>Runway/pa_centerline_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_rest</name>
+    <name>dirt_rwyrest</name>
+    <texture>Runway/pa_rest_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+	<material include="Materials/base/runway_effect.xml">
+    <name>pa_threshold</name>
+    <texture>Runway/pa_threshold_y.png</texture>
+    <wrapu>false</wrapu>
+    <wrapv>false</wrapv>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_aim</name>
+    <texture>Runway/pa_aim_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_rest</name>
+    <texture>Runway/pa_rest_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_centerline</name>
+    <texture>Runway/pa_centerline_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+	<!--Runway numbers-->
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_0l</name>
+    <texture>Runway/pa_0l_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_0r</name>
+    <texture>Runway/pa_0r_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_1c</name>
+    <texture>Runway/pa_1c_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_1l</name>
+    <texture>Runway/pa_1l_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_1r</name>
+    <texture>Runway/pa_1r_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_2c</name>
+    <texture>Runway/pa_2c_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_2r</name>
+    <texture>Runway/pa_2r_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_2l</name>
+    <texture>Runway/pa_2l_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_3l</name>
+    <texture>Runway/pa_3l_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_3c</name>
+    <texture>Runway/pa_3c_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_3l</name>
+    <texture>Runway/pa_3l_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_3r</name>
+    <texture>Runway/pa_3r_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_4c</name>
+    <texture>Runway/pa_4c_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_4r</name>
+    <texture>Runway/pa_4r_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_5c</name>
+    <texture>Runway/pa_5c_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_5r</name>
+    <texture>Runway/pa_5r_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_6c</name>
+    <texture>Runway/pa_6c_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_6r</name>
+    <texture>Runway/pa_6r_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_7c</name>
+    <texture>Runway/pa_7c_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_7r</name>
+    <texture>Runway/pa_7r_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_8c</name>
+    <texture>Runway/pa_8c_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_8r</name>
+    <texture>Runway/pa_8r_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_9c</name>
+    <texture>Runway/pa_9c_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_9r</name>
+    <texture>Runway/pa_9r_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_L</name>
+    <texture>Runway/pa_L_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_R</name>
+    <texture>Runway/pa_R_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_C</name>
+    <texture>Runway/pa_C_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+	<!--end-->
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_dspl_thresh</name>
+    <texture>Runway/pa_dspl_thresh_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_dspl_arrows</name>
+    <texture>Runway/pa_dspl_arrows_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_helipad</name>
+    <texture>Runway/pa_helipad_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_tz_one_a</name>
+    <texture>Runway/pa_tz_one_a_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_tz_one_b</name>
+    <texture>Runway/pa_tz_one_b_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_tz_two_a</name>
+    <texture>Runway/pa_tz_two_a_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_tz_two_b</name>
+    <texture>Runway/pa_tz_two_b_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_tz_three</name>
+    <texture>Runway/pa_tz_two_a_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pa_no_threshold</name>
+    <texture>Runway/pa_no_threshold_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  
+  <!--Runway textures: concrete -->
+	<!--Taxiway-->
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_centerline</name>
+    <name>dirt_rwycenterline</name>
+    <texture>Runway/pc_centerline_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_rest</name>
+    <name>dirt_rwyrest</name>
+    <texture>Runway/pc_rest_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+	<material include="Materials/base/runway_effect.xml">
+    <name>pc_threshold</name>
+    <texture>Runway/pc_threshold_y.png</texture>
+    <wrapu>false</wrapu>
+    <wrapv>false</wrapv>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_aim</name>
+    <texture>Runway/pc_aim_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_rest</name>
+    <texture>Runway/pc_rest_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_centerline</name>
+    <texture>Runway/pc_centerline_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+	<!--Runway numbers-->
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_0l</name>
+    <texture>Runway/pc_0l_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_0r</name>
+    <texture>Runway/pc_0r_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_1c</name>
+    <texture>Runway/pc_1c_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_1l</name>
+    <texture>Runway/pc_1l_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_1r</name>
+    <texture>Runway/pc_1r_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_2c</name>
+    <texture>Runway/pc_2c_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_2r</name>
+    <texture>Runway/pc_2r_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_2l</name>
+    <texture>Runway/pc_2l_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_3l</name>
+    <texture>Runway/pc_3l_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_3c</name>
+    <texture>Runway/pc_3c_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_3l</name>
+    <texture>Runway/pc_3l_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_3r</name>
+    <texture>Runway/pc_3r_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_4c</name>
+    <texture>Runway/pc_4c_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_4r</name>
+    <texture>Runway/pc_4r_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_5c</name>
+    <texture>Runway/pc_5c_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_5r</name>
+    <texture>Runway/pc_5r_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_6c</name>
+    <texture>Runway/pc_6c_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_6r</name>
+    <texture>Runway/pc_6r_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_7c</name>
+    <texture>Runway/pc_7c_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_7r</name>
+    <texture>Runway/pc_7r_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_8c</name>
+    <texture>Runway/pc_8c_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_8r</name>
+    <texture>Runway/pc_8r_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_9c</name>
+    <texture>Runway/pc_9c_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_9r</name>
+    <texture>Runway/pc_9r_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_L</name>
+    <texture>Runway/pc_L_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_R</name>
+    <texture>Runway/pc_R_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_C</name>
+    <texture>Runway/pc_C_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+	<!--end-->
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_dspl_thresh</name>
+    <texture>Runway/pc_dspl_thresh_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_dspl_arrows</name>
+    <texture>Runway/pc_dspl_arrows_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_helipad</name>
+    <texture>Runway/pc_helipad_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_tz_one_a</name>
+    <texture>Runway/pc_tz_one_a_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_tz_one_b</name>
+    <texture>Runway/pc_tz_one_b_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_tz_two_a</name>
+    <texture>Runway/pc_tz_two_a_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_tz_two_b</name>
+    <texture>Runway/pc_tz_two_b_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_tz_three</name>
+    <texture>Runway/pc_tz_two_a_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+  <material include="Materials/base/runway_effect.xml">
+    <name>pc_no_threshold</name>
+    <texture>Runway/pc_no_threshold_y.png</texture>
+    <wrapu>false</wrapu>
+  </material>
+</PropertyList>
