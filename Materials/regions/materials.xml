@@ -82,4 +82,8 @@
 <region include="Materials/regions/middle_east.xml"/>
 <region include="Materials/regions/middle_east_large_cities.xml"/>  <!-- added by gsagostinho -->
 
+<!-- street illumination-->
+<region include="Materials/regions/large_cities_illumination.xml"/>  <!-- added by gsagostinho -->
+<region include="Materials/regions/mega_cities_illumination.xml"/>  <!-- added by gsagostinho -->
+
 </PropertyList>

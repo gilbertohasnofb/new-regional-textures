@@ -1,0 +1,497 @@
+<?xml version="1.0"?>
+<!-- Regional definitions for several large cities which raises their light coverate density-->
+
+<PropertyList>
+  <name>Large Cities: street illumination</name>
+
+  <area> <!-- Boston -->
+    <lat1>42.47768</lat1>
+    <lat2>42.27027</lat2>
+    <lon1>-71.21973</lon1>
+    <lon2>-70.91006</lon2>
+  </area>
+
+  <area> <!-- Atlanta -->
+    <lat1>33.97725</lat1>
+    <lat2>33.58787</lat2>
+    <lon1>-84.59232</lon1>
+    <lon2>-84.08886</lon2>
+  </area>
+
+  <area> <!-- Dallas -->
+    <lat1>33.24172</lat1>
+    <lat2>32.53479</lat2>
+    <lon1>-96.54128</lon1>
+    <lon2>-97.59846</lon2>
+  </area>
+ 
+  <area> <!-- Denver -->
+    <lat1>40.08105</lat1>
+    <lat2>39.49564</lat2>
+    <lon1>-105.29286</lon1>
+    <lon2>-104.64601</lon2>
+  </area>
+
+  <area> <!-- Philadelphia -->
+    <lat1>40.28782</lat1>
+    <lat2>39.78425</lat2>
+    <lon1>-75.44033</lon1>
+    <lon2>-74.82253</lon2>
+  </area>
+
+  <area> <!-- Washington DC -->
+    <lat1>39.14445</lat1>
+    <lat2>38.74858</lat2>
+    <lon1>-76.80456</lon1>
+    <lon2>-77.28723</lon2>
+  </area>
+
+  <area> <!-- Lima -->
+    <lat1>-12.33991</lat1>
+    <lat2>-11.83341</lat2>
+    <lon1>-76.83171</lon1>
+    <lon2>-77.23825</lon2>
+  </area>
+
+  <area> <!-- Caracas -->
+    <lat1>10.52084</lat1>
+    <lat2>10.39326</lat2>
+    <lon1>-66.79432</lon1>
+    <lon2>-66.98893</lon2>
+  </area>
+
+  <area> <!-- Bogota -->
+    <lat1>4.52991</lat1>
+    <lat2>4.95255</lat2>
+    <lon1>-73.98621</lon1>
+    <lon2>-74.23886</lon2>
+  </area>
+
+  <area> <!-- Mexico City -->
+    <lat1>19.55426</lat1>
+    <lat2>19.22622</lat2>
+    <lon1>-99.31500</lon1>
+    <lon2>-98.92192</lon2>
+  </area>
+
+  <area> <!-- Toronto -->
+    <lat1>43.91964</lat1>
+    <lat2>43.37026</lat2>
+    <lon1>-79.80317</lon1>
+    <lon2>-78.61904</lon2>
+  </area>
+
+  <area> <!-- Montreal -->
+    <lat1>45.71367</lat1>
+    <lat2>45.38064</lat2>
+    <lon1>-73.86784</lon1>
+    <lon2>-73.39668</lon2>
+  </area>
+
+  <area> <!-- Vancouver -->
+    <lat1>49.37450</lat1>
+    <lat2>48.97742</lat2>
+    <lon1>-123.30351</lon1>
+    <lon2>-122.68379</lon2>
+  </area>
+  
+  <area> <!-- San Diego -->
+    <lat1>32.90730</lat1>
+    <lat2>32.66244</lat2>
+    <lon1>-117.31109</lon1>
+    <lon2>-116.95789</lon2>
+  </area>
+
+  <area> <!-- Houston -->
+    <lat1>30.03360</lat1>
+    <lat2>29.48127</lat2>
+    <lon1>-94.95175</lon1>
+    <lon2>-95.74908</lon2>
+  </area>
+
+  <area> <!-- Seattle -->
+    <lat1>47.99030</lat1>
+    <lat2>47.02903</lat2>
+    <lon1>-122.66323</lon1>
+    <lon2>-122.03560</lon2>
+  </area>
+
+  <area> <!-- Miami -->
+    <lat1>26.75256</lat1>
+    <lat2>25.61910</lat2>
+    <lon1>-80.00053</lon1>
+    <lon2>-80.39020</lon2>
+  </area>
+
+  <area> <!-- Las Vegas -->
+    <lat1>115.36745</lat1>
+    <lat2>114.89960</lat2>
+    <lon1>-35.91014</lon1>
+    <lon2>-36.34138</lon2>
+  </area>
+
+  <area> <!-- Santiago -->
+    <lat1>-33.21504</lat1>
+    <lat2>-33.65644</lat2>
+    <lon1>-70.91586</lon1>
+    <lon2>-70.48349</lon2>
+  </area>
+
+  <area> <!-- Buenos Aires -->
+    <lat1>-34.37178</lat1>
+    <lat2>-35.00064</lat2>
+    <lon1>-58.89723</lon1>
+    <lon2>-57.89561</lon2>
+  </area>
+
+  <area> <!-- Salvador -->
+    <lat1>-12.83884</lat1>
+    <lat2>-13.03631</lat2>
+    <lon1>-38.54230</lon1>
+    <lon2>-38.28718</lon2>
+  </area>
+
+  <area> <!-- Brasilia -->
+    <lat1>-15.70988</lat1>
+    <lat2>-15.89967</lat2>
+    <lon1>-47.98159</lon1>
+    <lon2>-47.76922</lon2>
+  </area>
+
+  <area> <!-- Fortaleza -->
+    <lat1>-3.88585</lat1>
+    <lat2>-3.66172</lat2>
+    <lon1>-38.68750</lon1>
+    <lon2>-38.39368</lon2>
+  </area>
+
+  <area> <!-- Lagos -->
+    <lat1>6.75715</lat1>
+    <lat2>6.36027</lat2>
+    <lon1>3.08022</lon1>
+    <lon2>3.52337</lon2>
+  </area>
+
+  <area> <!-- Cape Town -->
+    <lat1>-33.74708</lat1>
+    <lat2>-34.38011</lat2>
+    <lon1>18.20950</lon1>
+    <lon2>18.78211</lon2>
+  </area>
+
+  <area> <!-- Mumbai -->
+    <lat1>19.47962</lat1>
+    <lat2>18.85706</lat2>
+    <lon1>72.68693</lon1>
+    <lon2>73.15243</lon2>
+  </area>
+
+  <area> <!-- Shanghai -->
+    <lat1>32.32285</lat1>
+    <lat2>29.63823</lat2>
+    <lon1>119.37620</lon1>
+    <lon2>122.15318</lon2>
+  </area>
+  
+  <area> <!-- Osaka-Kobe-Kyoto -->
+    <lat1>35.00248</lat1>
+    <lat2>34.34327</lat2>
+    <lon1>134.99815</lon1>
+    <lon2>136.00010</lon2>
+  </area>
+
+  <area> <!-- Helsinki -->
+    <lat1>60.30336</lat1>
+    <lat2>60.11715</lat2>
+    <lon1>24.70499</lon1>
+    <lon2>25.17508</lon2>
+  </area>
+
+  <area> <!-- Oslo -->
+    <lat1>59.85911</lat1>
+    <lat2>59.97916</lat2>
+    <lon1>10.49407</lon1>
+    <lon2>10.89967</lon2>
+  </area>
+
+  <area> <!-- Copenhagen -->
+    <lat1>55.58271</lat1>
+    <lat2>55.80291</lat2>
+    <lon1>12.70634</lon1>
+    <lon2>12.30930</lon2>
+  </area>
+
+  <area> <!-- Lisbon -->
+    <lat1>38.58099</lat1>
+    <lat2>38.93042</lat2>
+    <lon1>-8.87027</lon1>
+    <lon2>-9.25241</lon2>
+  </area>
+
+  <area> <!-- Zurich -->
+    <lat1>47.33919</lat1>
+    <lat2>47.48284</lat2>
+    <lon1>8.67818</lon1>
+    <lon2>8.40482</lon2>
+  </area>  
+
+  <area> <!-- Manchester -->
+    <lat1>53.32568</lat1>
+    <lat2>53.55567</lat2>
+    <lon1>2.42305</lon1>
+    <lon2>1.98987</lon2>
+  </area>
+
+  <area> <!-- Cologne -->
+    <lat1>51.04272</lat1>
+    <lat2>50.85176</lat2>
+    <lon1>6.79529</lon1>
+    <lon2>7.14304</lon2>
+  </area>
+
+  <area> <!-- Amsterdam -->
+    <lat1>52.47374</lat1>
+    <lat2>52.26551</lat2>
+    <lon1>4.70760</lon1>
+    <lon2>5.06614</lon2>
+  </area>
+
+  <area> <!-- Barcelona -->
+    <lat1>41.45366</lat1>
+    <lat2>41.26111</lat2>
+    <lon1>-2.26964</lon1>
+    <lon2>-2.01311</lon2>
+  </area>
+
+  <area> <!-- Munich -->
+    <lat1>48.23975</lat1>
+    <lat2>48.02283</lat2>
+    <lon1>11.37308</lon1>
+    <lon2>11.74387</lon2>
+  </area>
+
+  <area> <!-- Milan -->
+    <lat1>9.30433</lat1>
+    <lat2>9.09498</lat2>
+    <lon1>45.41850</lon1>
+    <lon2>45.53711</lon2>
+  </area>
+
+  <area> <!-- Prague -->
+    <lat1>50.13928</lat1>
+    <lat2>50.00937</lat2>
+    <lon1>14.24933</lon1>
+    <lon2>14.57874</lon2>
+  </area>
+
+  <area> <!-- Brussels -->
+    <lat1>50.92643</lat1>
+    <lat2>50.78317</lat2>
+    <lon1>4.52247</lon1>
+    <lon2>4.25199</lon2>
+  </area>
+ 
+  <area> <!-- Frankfurt -->
+    <lat1>8.50623</lat1>
+    <lat2>8.88979</lat2>
+    <lon1>50.02505</lon1>
+    <lon2>50.20869</lon2>
+  </area>
+
+  <area> <!-- Naples -->
+    <lat1>40.88993</lat1>
+    <lat2>40.79343</lat2>
+    <lon1>14.20865</lon1>
+    <lon2>14.35088</lon2>
+  </area>
+
+  <area> <!-- Stockholm -->
+    <lat1>59.38756</lat1>
+    <lat2>59.26285</lat2>
+    <lon1>17.85806</lon1>
+    <lon2>18.26003</lon2>
+  </area>
+
+  <area> <!-- Madrid -->
+    <lat1>40.55384</lat1>
+    <lat2>40.24070</lat2>
+    <lon1>-3.39610</lon1>
+    <lon2>-3.89830</lon2>
+  </area>
+
+  <area> <!-- Kiev -->
+    <lat1>50.53590</lat1>
+    <lat2>50.32946</lat2>
+    <lon1>30.28076</lon1>
+    <lon2>30.75473</lon2>
+  </area>
+  
+  <area> <!-- Minsk -->
+    <lat1>53.97626</lat1>
+    <lat2>53.81584</lat2>
+    <lon1>27.42108</lon1>
+    <lon2>27.73477</lon2>
+  </area>
+
+  <area> <!-- Vienna -->
+    <lat1>48.29638</lat1>
+    <lat2>48.07960</lat2>
+    <lon1>16.21670</lon1>
+    <lon2>16.52177</lon2>
+  </area>
+
+  <area> <!-- Hamburg -->
+    <lat1>53.68635</lat1>
+    <lat2>53.45800</lat2>
+    <lon1>9.75653</lon1>
+    <lon2>10.20458</lon2>
+  </area>
+
+  <area> <!-- Budapest -->
+    <lat1>47.67036</lat1>
+    <lat2>47.28997</lat2>
+    <lon1>18.84449</lon1>
+    <lon2>19.35175</lon2>
+  </area>
+
+  <area> <!-- Warsaw -->
+    <lat1>52.34643</lat1>
+    <lat2>52.06382</lat2>
+    <lon1>20.85370</lon1>
+    <lon2>21.27937</lon2>
+  </area>
+
+  <area> <!-- Istanbul -->
+    <lat1>41.15702</lat1>
+    <lat2>40.86366</lat2>
+    <lon1>28.72961</lon1>
+    <lon2>29.21106</lon2>
+  </area>
+
+  <area> <!-- Moscow -->
+    <lat1>55.92855</lat1>
+    <lat2>55.53656</lat2>
+    <lon1>37.23704</lon1>
+    <lon2>37.97047</lon2>
+  </area>
+
+  <area> <!-- Saint Petersburg -->
+    <lat1>60.10868</lat1>
+    <lat2>59.79899</lat2>
+    <lon1>30.06597</lon1>
+    <lon2>30.59480</lon2>
+  </area>
+
+  <area> <!-- Athens -->
+    <lat1>38.14254</lat1>
+    <lat2>37.90281</lat2>
+    <lon1>23.56382</lon1>
+    <lon2>23.89365</lon2>
+  </area>
+
+  <area> <!-- Venice -->
+    <lat1>45.53353</lat1>
+    <lat2>45.40897</lat2>
+    <lon1>12.19562</lon1>
+    <lon2>12.47421</lon2>
+  </area>
+
+  <area> <!-- Rome -->
+    <lat1>41.99548</lat1>
+    <lat2>41.77676</lat2>
+    <lon1>12.35518</lon1>
+    <lon2>12.64127</lon2>
+  </area>
+
+  <area> <!-- Bucharest -->
+    <lat1>44.57708</lat1>
+    <lat2>44.31137</lat2>
+    <lon1>25.89764</lon1>
+    <lon2>26.26982</lon2>
+  </area>
+
+  <area> <!-- Rio de Janeiro -->
+    <lat1>-22.64453</lat1>
+    <lat2>-23.06468</lat2>
+    <lon1>-43.72251</lon1>
+    <lon2>-42.95914</lon2>
+  </area>
+    
+  <area> <!-- Manaus -->
+    <lat1>-2.8</lat1>
+    <lat2>-3.2</lat2>
+    <lon1>-60.1</lon1>
+    <lon2>-59.8</lon2>
+  </area>
+  
+  <area> <!-- Cairo -->
+    <lon1>30.96</lon1>
+    <lon2>31.55</lon2>
+    <lat1>30.40</lat1>
+    <lat2>29.64</lat2>
+  </area>
+  
+  <area> <!-- Tehran -->
+    <lon1>49.82</lon1>
+    <lon2>52.01</lon2>
+    <lat1>36.44</lat1>
+    <lat2>35.15</lat2>
+  </area>
+
+  <area> <!-- Riyadh -->
+    <lon1>46.44</lon1>
+    <lon2>46.94</lon2>
+    <lat1>24.87</lat1>
+    <lat2>24.43</lat2>
+  </area>
+
+  <area> <!-- Ankara -->
+    <lon1>32.62</lon1>
+    <lon2>33.09</lon2>
+    <lat1>40.24</lat1>
+    <lat2>39.84</lat2>
+  </area>
+
+  <area> <!-- Jeddah -->
+    <lon1>38.96</lon1>
+    <lon2>39.54</lon2>
+    <lat1>21.86</lat1>
+    <lat2>21.16</lat2>
+  </area>
+
+  <area> <!-- Kuwait City -->
+    <lon1>47.55</lon1>
+    <lon2>48.40</lon2>
+    <lat1>29.54</lat1>
+    <lat2>28.89</lat2>
+  </area>
+
+  <area> <!-- Tel Aviv -->
+    <lon1>34.46</lon1>
+    <lon2>35.02</lon2>
+    <lat1>32.69</lat1>
+    <lat2>31.55</lat2>
+  </area>
+  
+  <area> <!-- Dubai -->
+    <lon1>55.72</lon1>
+    <lon2>54.89</lon2>
+    <lat1>24.91</lat1>
+    <lat2>25.45</lat2>
+  </area>
+  
+  <material>
+		<name>Freeway</name>
+		<name>Road</name>
+		<texture>Terrain/asphalt.png</texture>
+		<xsize>400</xsize>
+		<ysize>400</ysize>
+		<light-coverage>2000.0</light-coverage>
+		<solid>1</solid>
+		<friction-factor>1.0</friction-factor>
+		<rolling-friction>0.02</rolling-friction>
+		<bumpiness>0.01</bumpiness>
+		<load-resistance>1e10</load-resistance>
+	</material>
+
+</PropertyList>

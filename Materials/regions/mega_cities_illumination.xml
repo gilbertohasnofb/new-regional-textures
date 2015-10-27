@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<!-- Regional definitions for some mega cities which raises their light coverate density-->
+
+<PropertyList>
+  <name>Mega Cities: street illumination</name>
+
+  <area> <!-- Berlin -->
+    <lat1>52.59920</lat1>
+    <lat2>52.40287</lat2>
+    <lon1>13.25426</lon1>
+    <lon2>13.56422</lon2>
+  </area>
+
+  <area> <!-- London -->
+    <lat1>51.67173</lat1>
+    <lat2>51.26913</lat2>
+    <lon1>-0.50521</lon1>
+    <lon2>0.29256</lon2>
+  </area>
+
+  <area> <!-- Paris -->
+    <lat1>48.97669</lat1>
+    <lat2>48.69736</lat2>
+    <lon1>2.10992</lon1>
+    <lon2>2.63035</lon2>
+  </area>
+
+  <area> <!-- Tokyo -->
+    <lat1>36.36810</lat1>
+    <lat2>35.00871</lat2>
+    <lon1>139.21814</lon1>
+    <lon2>140.75829</lon2>
+  </area>
+
+  <area> <!-- Hong Kong -->
+    <lat1>23.56189</lat1>
+    <lat2>22.13925</lat2>
+    <lon1>112.58020</lon1>
+    <lon2>114.51149</lon2>
+  </area>
+
+  <area> <!-- Beijing -->
+    <lat1>40.18221</lat1>
+    <lat2>39.55469</lat2>
+    <lon1>115.99712</lon1>
+    <lon2>116.82730</lon2>
+  </area>
+
+  <area> <!-- Seoul -->
+    <lat1>37.72248</lat1>
+    <lat2>37.24066</lat2>
+    <lon1>126.53192</lon1>
+    <lon2>127.35440</lon2>
+  </area>
+
+  <area> <!-- New York -->
+    <lat1>40.53940</lat1>
+    <lat2>41.11161</lat2>
+    <lon1>-74.40050</lon1>
+    <lon2>-72.85317</lon2>
+  </area>
+
+  <area> <!-- Los Ageles -->
+    <lat1>34.33197</lat1>
+    <lat2>33.43953</lat2>
+    <lon1>-118.66619</lon1>
+    <lon2>-117.19651</lon2>
+  </area>
+
+  <area> <!-- Chicago -->
+    <lat1>42.22792</lat1>
+    <lat2>41.44764</lat2>
+    <lon1>-88.30525</lon1>
+    <lon2>-87.25579</lon2>
+  </area>
+
+  <area> <!-- San Francisco -->
+    <lat1>37.99361</lat1>
+    <lat2>37.18229</lat2>
+    <lon1>-122.64536</lon1>
+    <lon2>-121.73241</lon2>
+  </area>
+
+  <area> <!-- Sao Paulo -->
+    <lat1>-23.42376</lat1>
+    <lat2>-24.26020</lat2>
+    <lon1>-46.89048</lon1>
+    <lon2>-46.08021</lon2>
+  </area>
+  
+  <material>
+		<name>Freeway</name>
+		<name>Road</name>
+		<texture>Terrain/asphalt.png</texture>
+		<xsize>400</xsize>
+		<ysize>400</ysize>
+		<light-coverage>1000.0</light-coverage>
+		<solid>1</solid>
+		<friction-factor>1.0</friction-factor>
+		<rolling-friction>0.02</rolling-friction>
+		<bumpiness>0.01</bumpiness>
+		<load-resistance>1e10</load-resistance>
+	</material>
+
+</PropertyList>
