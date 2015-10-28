@@ -1,9 +1,10 @@
 <?xml version="1.0"?>
-<!-- Regional definitions for several large cities which raises their light coverate density-->
+<!-- Regional definitions for several large cities which raises their light coverage density-->
 
 <PropertyList>
   <name>Large Cities: street illumination</name>
-
+  
+	<!-- all below by gsagostinho -->
   <area> <!-- Boston -->
     <lat1>42.47768</lat1>
     <lat2>42.27027</lat2>
@@ -94,7 +95,7 @@
     <lon1>-123.30351</lon1>
     <lon2>-122.68379</lon2>
   </area>
-  
+ 
   <area> <!-- San Diego -->
     <lat1>32.90730</lat1>
     <lat2>32.66244</lat2>
@@ -192,7 +193,7 @@
     <lon1>119.37620</lon1>
     <lon2>122.15318</lon2>
   </area>
-  
+ 
   <area> <!-- Osaka-Kobe-Kyoto -->
     <lat1>35.00248</lat1>
     <lat2>34.34327</lat2>
@@ -233,7 +234,7 @@
     <lat2>47.48284</lat2>
     <lon1>8.67818</lon1>
     <lon2>8.40482</lon2>
-  </area>  
+  </area> 
 
   <area> <!-- Manchester -->
     <lat1>53.32568</lat1>
@@ -325,7 +326,7 @@
     <lon1>30.28076</lon1>
     <lon2>30.75473</lon2>
   </area>
-  
+ 
   <area> <!-- Minsk -->
     <lat1>53.97626</lat1>
     <lat2>53.81584</lat2>
@@ -416,21 +417,21 @@
     <lon1>-43.72251</lon1>
     <lon2>-42.95914</lon2>
   </area>
-    
+   
   <area> <!-- Manaus -->
     <lat1>-2.8</lat1>
     <lat2>-3.2</lat2>
     <lon1>-60.1</lon1>
     <lon2>-59.8</lon2>
   </area>
-  
+ 
   <area> <!-- Cairo -->
     <lon1>30.96</lon1>
     <lon2>31.55</lon2>
     <lat1>30.40</lat1>
     <lat2>29.64</lat2>
   </area>
-  
+ 
   <area> <!-- Tehran -->
     <lon1>49.82</lon1>
     <lon2>52.01</lon2>
@@ -472,7 +473,7 @@
     <lat1>32.69</lat1>
     <lat2>31.55</lat2>
   </area>
-  
+ 
   <area> <!-- Dubai -->
     <lon1>55.72</lon1>
     <lon2>54.89</lon2>
@@ -480,18 +481,32 @@
     <lat2>25.45</lat2>
   </area>
   
+  <!-- all below by Jonathan Redpath (legoboyvdlp) -->
+  <area> <!-- Maracay, Venezuela -->
+  <lon1>-67.643852</lon1>
+  <lon2>-67.470131</lon2>
+  <lat1>10.296837</lat1>
+  <lat2>10.196159</lat2>
+  </area>
+ 
+  <area> <!-- Belfast, Northern Ireland-->
+  <lon1>-5.994072</lon1>
+  <lon2>-5.840263</lon2>
+  <lat1>54.627046</lat1>
+  <lat2>54.579319</lat2>
+
   <material>
-		<name>Freeway</name>
-		<name>Road</name>
-		<texture>Terrain/asphalt.png</texture>
-		<xsize>400</xsize>
-		<ysize>400</ysize>
-		<light-coverage>2000.0</light-coverage>
-		<solid>1</solid>
-		<friction-factor>1.0</friction-factor>
-		<rolling-friction>0.02</rolling-friction>
-		<bumpiness>0.01</bumpiness>
-		<load-resistance>1e10</load-resistance>
-	</material>
+      <name>Freeway</name>
+      <name>Road</name>
+      <texture>Terrain/asphalt.png</texture>
+      <xsize>400</xsize>
+      <ysize>400</ysize>
+      <light-coverage>2000.0</light-coverage>
+      <solid>1</solid>
+      <friction-factor>1.0</friction-factor>
+      <rolling-friction>0.02</rolling-friction>
+      <bumpiness>0.01</bumpiness>
+      <load-resistance>1e10</load-resistance>
+   </material>
 
 </PropertyList>
