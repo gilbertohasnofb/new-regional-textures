@@ -34,6 +34,8 @@
   <material>
     <name>BuiltUpCover</name>
     <name>Urban</name>
+    <name>Town</name>
+    <name>SubUrban</name>
     <effect>Effects/urban</effect>
     <texture-set>
       <texture>Terrain/mediterranean_city1.png</texture>

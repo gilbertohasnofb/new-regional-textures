@@ -136,6 +136,8 @@
   <material>
     <name>BuiltUpCover</name>
     <name>Urban</name>
+    <name>Town</name>
+    <name>SubUrban</name>
     <effect>Effects/urban</effect>
     <texture-set>
       <texture>Terrain/city1-middle-east.png</texture>
@@ -171,29 +173,6 @@
     <tree-range-m alias="/params/forest/tree-range-m"/>
     <tree-height-m>15.0</tree-height-m>
     <tree-width-m>10.0</tree-width-m>
-  </material>
-
-  <material>
-    <texture-set>
-      <texture>Terrain/city1-middle-east.png</texture>
-      <texture n="2">Terrain/city1-relief-light.png</texture>
-    </texture-set>
-    <texture-set>
-      <texture>Terrain/city2-middle-east.png</texture>
-      <texture n="2">Terrain/city2-relief-light.png</texture>
-    </texture-set>
-    <object-mask>Terrain/city1.mask.png</object-mask>
-    <object-mask>Terrain/city2.mask.png</object-mask>
-    <xsize>1000</xsize>
-    <ysize>1000</ysize>
-    <light-coverage>100000.0</light-coverage>
-    <emissive>
-      <r>0.05</r>
-      <g>0.05</g>
-      <b>0.02</b>
-      <a>1.0</a>
-    </emissive>
-    <object-group include="Materials/base/industrial-buildings.xml"/>
   </material>
 
 </PropertyList>
