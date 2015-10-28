@@ -67,7 +67,7 @@
     <effect>Effects/urban</effect>
     <texture-set>
       <texture>Terrain.winter/town-europe-winter.png</texture>
-      <texture n="2">Terrain/town-europe-relief-light.png</texture>
+      <texture n="2">Terrain.winter/town-europe-winter-relief-light.png</texture>
     </texture-set>    
     <object-mask>Terrain/town-europe.mask.png</object-mask>
     <xsize>1024</xsize>
