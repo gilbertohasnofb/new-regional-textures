@@ -450,10 +450,25 @@
   </material>
 
   <material>
+    <name>Greenspace</name>
+    <texture-set>
+     <texture>Terrain/snow2.png</texture>
+     <texture n="11">Terrain/snow2.png</texture>
+    </texture-set>
+    <parameters>
+    	<hires_overlay_bias>0.12</hires_overlay_bias>
+    </parameters>
+    <xsize>2000</xsize>
+    <ysize>2000</ysize>
+    <light-coverage>10000000.0</light-coverage>
+    <rolling-friction>1</rolling-friction>
+    <bumpiness>0.85</bumpiness>
+  </material>
+
+  <material>
     <name>Grass</name>
     <name>Airport</name>
     <name>AirportKeep</name>
-    <name>Greenspace</name>
     <texture>Terrain.winter/airport.png</texture>
     <xsize>125</xsize>
     <ysize>125</ysize>

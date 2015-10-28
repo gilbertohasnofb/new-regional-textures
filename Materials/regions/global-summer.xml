@@ -31,7 +31,6 @@
     <bumpiness>1</bumpiness>
   </material>
 
-
   <material>
     <effect>Effects/forest</effect>
     <name>DeciduousBroadCover</name>
@@ -529,11 +528,23 @@
   </material>
 
   <material>
+    <name>Greenspace</name>
+    <texture-set>
+     <texture>Terrain/iceland_grass.png</texture>
+     <texture n="11">Terrain/grass_marsh_hires.png</texture>
+    </texture-set>
+    <xsize>2000</xsize>
+    <ysize>2000</ysize>
+    <light-coverage>10000000.0</light-coverage>
+    <rolling-friction>1</rolling-friction>
+    <bumpiness>0.85</bumpiness>
+  </material>
+
+  <material>
     <effect>Effects/airfield</effect>
-    <name>Grass</name>
     <name>Airport</name>
     <name>AirportKeep</name>
-    <name>Greenspace</name>
+    <name>Grass</name>
     <texture>Terrain/airport.png</texture>
     <xsize>125</xsize>
     <ysize>125</ysize>
