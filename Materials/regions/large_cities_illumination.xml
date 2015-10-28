@@ -483,18 +483,19 @@
   
   <!-- all below by Jonathan Redpath (legoboyvdlp) -->
   <area> <!-- Maracay, Venezuela -->
-  <lon1>-67.643852</lon1>
-  <lon2>-67.470131</lon2>
-  <lat1>10.296837</lat1>
-  <lat2>10.196159</lat2>
+		<lon1>-67.643852</lon1>
+		<lon2>-67.470131</lon2>
+		<lat1>10.296837</lat1>
+		<lat2>10.196159</lat2>
   </area>
  
   <area> <!-- Belfast, Northern Ireland-->
-  <lon1>-5.994072</lon1>
-  <lon2>-5.840263</lon2>
-  <lat1>54.627046</lat1>
-  <lat2>54.579319</lat2>
-
+		<lon1>-5.994072</lon1>
+		<lon2>-5.840263</lon2>
+		<lat1>54.627046</lat1>
+		<lat2>54.579319</lat2>
+  </area>
+  
   <material>
       <name>Freeway</name>
       <name>Road</name>
