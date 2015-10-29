@@ -198,7 +198,6 @@
 	<material>
 		<name>Construction</name>
 		<name>Industrial</name>
-		<name>Port</name>		
 		<effect>Effects/urban</effect>
 		<texture-set>
 		  <texture>Terrain.winter/industrial-winter.png</texture>
@@ -216,17 +215,24 @@
 		</emissive>
 		<object-group include="Materials/base/industrial-buildings.xml"/>
 	</material>
+
+	<material>
+		<name>Railroad</name>		
+		<texture>Terrain/dark_gravel.png</texture>
+		<xsize>200</xsize>
+		<ysize>200</ysize>
+	</material>
 	
 	<material>
-		<name>Railroad</name>
 		<name>Transport</name>
+		<name>Port</name>		
 		<effect>Effects/urban</effect>
 		<texture-set>
 		  <texture>Terrain.winter/transport-winter.png</texture>
 		  <texture n="2">Terrain.winter/transport-winter-relief-light.png</texture>
 		</texture-set>    
-		<xsize>400</xsize>
-		<ysize>400</ysize>
+		<xsize>500</xsize>
+		<ysize>500</ysize>
 		<light-coverage>1000000.0</light-coverage>
 		<emissive>
 		 <r>0.05</r>

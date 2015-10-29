@@ -236,7 +236,6 @@
 	<material>
 		<name>Construction</name>
 		<name>Industrial</name>
-		<name>Port</name>		
 		<effect>Effects/urban</effect>
 		<texture-set>
       <texture>Terrain/industrial.png</texture>
@@ -256,15 +255,23 @@
 	</material>
 	
 	<material>
-		<name>Railroad</name>
+		<name>Railroad</name>		
+		<texture>Terrain/dark_gravel.png</texture>
+		<xsize>200</xsize>
+		<ysize>200</ysize>
+	</material>
+	
+	<material>		
 		<name>Transport</name>
+		<name>Port</name>		
 		<effect>Effects/urban</effect>
 		<texture-set>
 		  <texture>Terrain/transport.png</texture>
 		  <texture n="2">Terrain/transport-relief-light.png</texture>
 		</texture-set>    
-		<xsize>400</xsize>
-		<ysize>400</ysize>
+		<xsize>500</xsize>
+		<ysize>500</ysize>
+		<light-coverage>1000000.0</light-coverage>
 		<emissive>
 		 <r>0.05</r>
 		 <g>0.05</g>
