@@ -29,7 +29,7 @@
 <!-- North America -->
 <region include="Materials/regions/alaska.xml"/>
 <region include="Materials/regions/us_southwest.xml"/>
-<region include="Materials/regions/california.xml"/>
+<region include="Materials/regions/california.xml"/> <!-- modified by gsagostinho -->
 <region include="Materials/regions/sierras.xml"/>
 
 <!-- South America -->
