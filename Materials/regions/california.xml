@@ -144,6 +144,11 @@
 	    <texture n="13">Terrain/california-rock.png</texture>
       <texture n="15">Terrain/gravel_red.png</texture> 
     </texture-set>
+    <texture-set>
+      <texture>Terrain/california-shrub2.png</texture>
+	    <texture n="13">Terrain/california-rock.png</texture>
+      <texture n="15">Terrain/gravel_red.png</texture> 
+    </texture-set>
     <parameters>
 			<grain_strength>0.2</grain_strength>	
     </parameters>
