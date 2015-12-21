@@ -4,10 +4,59 @@
   <name>Latin American cities</name>
 
   <area>
-    <lat1>24.6</lat1>
-    <lat2>-42.3</lat2>
-    <lon1>-109.0</lon1>
-    <lon2>-32.1</lon2>
+    <lat1>32.55</lat1>
+    <lat2>-57.0</lat2>
+    <lon1>-117.5</lon1>
+    <lon2>-116.71</lon2>
+  </area>
+  
+  <area>
+    <lat1>32.71</lat1>
+    <lat2>-57.0</lat2>
+    <lon1>-116.71</lon1>
+    <lon2>-114.83</lon2>
+  </area>
+  
+  <area>
+    <lat1>31.77</lat1>
+    <lat2>-57.0</lat2>
+    <lon1>-114.83</lon1>
+    <lon2>-106.32</lon2>
+  </area>
+  
+  <area>
+    <lat1>29.09</lat1>
+    <lat2>-57.0</lat2>
+    <lon1>-106.32</lon1>
+    <lon2>-100.70</lon2>
+  </area>
+  
+  <area>
+    <lat1>26.06</lat1>
+    <lat2>-57.0</lat2>
+    <lon1>-100.70</lon1>
+    <lon2>-95.70</lon2>
+  </area>
+  
+  <area>
+    <lat1>23.93</lat1>
+    <lat2>-57.0</lat2>
+    <lon1>-95.70</lon1>
+    <lon2>-78.94</lon2>
+  </area>
+  
+  <area>
+    <lat1>27.47</lat1>
+    <lat2>-57.0</lat2>
+    <lon1>-78.94</lon1>
+    <lon2>-56.46</lon2>
+  </area>
+
+  <area>
+    <lat1>9.18</lat1>
+    <lat2>-57.0</lat2>
+    <lon1>-56.46</lon1>
+    <lon2>-30.0</lon2>
   </area>
 
   <material>
