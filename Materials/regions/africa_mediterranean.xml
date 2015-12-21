@@ -187,6 +187,7 @@
   <material>
     <name>DryCropPastureCover</name>
     <name>DryCrop</name>
+    <name>NaturalCrop</name>
     <texture-set>
       <texture>Terrain/dry_pasture4.png</texture>
       <texture n="11">Terrain/sand_hires_ochre.png</texture>
@@ -218,6 +219,7 @@
     <name>ComplexCrop</name>
     <texture-set>
       <texture>Terrain/mixedcrop2.png</texture>
+      <texture n="11">Terrain/grass_dry3a.png</texture>
       <texture n="15">Terrain/sand_hires_ochre.png</texture>
     </texture-set>
     <object-mask>Terrain/mixedcrop2-mask.png</object-mask>
@@ -258,6 +260,28 @@
     <friction-factor>0.7</friction-factor>
     <bumpiness>0.1</bumpiness>
   </material>
-
+  
+   <material>
+    <name>BarrenCover</name>
+    <name>Dirt</name>
+    <name>OpenMining</name>
+    <name>Rock</name>
+    <name>Dump</name>
+    <texture-set>
+      <texture>Terrain/california-rock.png</texture>
+      <texture n="11">Terrain/gravel_gray.png</texture>
+      <texture n="14">Terrain/grain_texture.png</texture>
+    </texture-set>    
+    <parameters>
+			<hires_overlay_bias>-0.1</hires_overlay_bias>
+      <grain_strength>0.7</grain_strength>
+    </parameters>
+    <xsize>3000</xsize>
+    <ysize>3000</ysize>
+    <solid>1</solid>
+    <friction-factor>0.9</friction-factor>
+    <rolling-friction>0.1</rolling-friction>
+    <bumpiness>0.3</bumpiness>
+  </material>
 
 </PropertyList>
