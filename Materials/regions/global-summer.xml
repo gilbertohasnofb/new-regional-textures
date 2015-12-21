@@ -535,11 +535,13 @@
   </material>
 
   <material>
-    <effect>Effects/airfield</effect>
+    <name>Grass</name>
     <name>Airport</name>
     <name>AirportKeep</name>
-    <name>Grass</name>
-    <texture>Terrain/airport.png</texture>
+    <name>Greenspace</name>
+    <texture-set>
+      <texture>Terrain/airport-grass.png</texture>
+    </texture-set>
     <xsize>125</xsize>
     <ysize>125</ysize>
     <light-coverage>4000000.0</light-coverage>
@@ -561,14 +563,6 @@
     <rolling-friction>0.1</rolling-friction>
     <bumpiness>0.1</bumpiness>
     <load-resistance>1e30</load-resistance>
-    <!-- uncomment this to get volumetric grass on airport keep-->
-    <!--<wood-coverage>10.0</wood-coverage>
-    <tree-texture>Trees/grass_blades.png</tree-texture>
-    <tree-varieties>1</tree-varieties>
-    <tree-range-m>200.0</tree-range-m>
-    <tree-height-m>0.3</tree-height-m>
-    <tree-width-m>1.0</tree-width-m> 
-    <tree-effect>Effects/tree-grass</tree-effect>-->
   </material>
 
   <!-- default mixed crop -->
