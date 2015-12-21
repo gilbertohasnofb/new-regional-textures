@@ -39,7 +39,7 @@
     <building-medium-ratio>0.6</building-medium-ratio>
     <building-large-ratio>0.2</building-large-ratio>
     <wood-coverage>250000.0</wood-coverage>
-    <tree-texture>Trees/mixed-alt.png</tree-texture>
+    <tree-texture>Trees/deciduous-alt.png</tree-texture>
     <tree-varieties>8</tree-varieties>
     <tree-range-m alias="/params/forest/tree-range-m"/>
     <tree-height-m>25.0</tree-height-m>
@@ -71,7 +71,7 @@
     <building-large-ratio>0.0</building-large-ratio>
     <building-medium-max-floors>4</building-medium-max-floors>
     <wood-coverage>5000.0</wood-coverage>
-    <tree-texture>Trees/mixed-alt.png</tree-texture>
+    <tree-texture>Trees/deciduous-alt.png</tree-texture>
     <tree-varieties>8</tree-varieties>
     <tree-range-m alias="/params/forest/tree-range-m"/>
     <tree-height-m>25.0</tree-height-m>

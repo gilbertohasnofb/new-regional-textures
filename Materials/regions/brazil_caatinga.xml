@@ -215,5 +215,33 @@
     <bumpiness>0.1</bumpiness>
     <load-resistance>1e30</load-resistance>
   </material>
+  
+  <material>  
+    <name>MixedForestCover</name>
+    <name>MixedForest</name>
+    <name>RainForest</name>
+    <name>EvergreenBroadCover</name>
+    <name>EvergreenForest</name>
+    <name>DeciduousBroadCover</name>
+    <name>DeciduousForest</name>
+    <name>DeciduousNeedleCover</name>    
+    <effect>Effects/forest</effect>
+    <texture-set>
+      <texture>Terrain/rainforest-hires.png</texture>
+      <texture n="11">Terrain/rainforest-hires.png</texture>
+      <texture n="13">Terrain/rock_brown.png</texture>
+    </texture-set>
+    <xsize>2000</xsize>
+    <ysize>2000</ysize>
+    <light-coverage>5000000.0</light-coverage>
+    <wood-coverage>7000.0</wood-coverage>
+    <tree-texture>Trees/tropical-alt2.png</tree-texture>
+    <tree-varieties>8</tree-varieties>
+    <tree-range-m alias="/params/forest/tree-range-m"/>
+    <tree-height-m>25.0</tree-height-m>
+    <tree-width-m>18.0</tree-width-m>
+    <rolling-friction>1</rolling-friction>
+    <bumpiness>0.95</bumpiness>
+  </material>
 
 </PropertyList>

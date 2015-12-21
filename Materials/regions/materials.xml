@@ -33,7 +33,7 @@
 <region include="Materials/regions/sierras.xml"/>
 
 <!-- South America -->
-<region include="Materials/regions/tropical_south_america.xml"/>
+<region include="Materials/regions/tropical_south_america.xml"/> <!-- modified by gsagostinho -->
 <region include="Materials/regions/latin_american_cities.xml"/> <!-- added by gsagostinho -->
 <region include="Materials/regions/caribbean.xml"/>
 <region include="Materials/regions/ascension.xml"/>
