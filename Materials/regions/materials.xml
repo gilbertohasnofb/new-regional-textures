@@ -28,7 +28,7 @@
 
 <!-- North America -->
 <region include="Materials/regions/alaska.xml"/>
-<region include="Materials/regions/us_southwest.xml"/>
+<region include="Materials/regions/us_southwest.xml"/> 
 <region include="Materials/regions/california.xml"/> <!-- modified by gsagostinho -->
 <region include="Materials/regions/sierras.xml"/>
 
@@ -78,6 +78,7 @@
 <region include="Materials/regions/corse.xml"/>
 <region include="Materials/regions/iceland.xml"/>
 <region include="Materials/regions/norway.xml"/>  <!-- added by D-ECHO and gsagostinho -->
+<region include="Materials/regions/southern_europe.xml"/> <!-- added by gsagostinho -->
 
 <!-- Middle East-->
 <region include="Materials/regions/middle_east.xml"/>
