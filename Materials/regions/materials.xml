@@ -37,6 +37,7 @@
 <region include="Materials/regions/latin_american_cities.xml"/> <!-- added by gsagostinho -->
 <region include="Materials/regions/caribbean.xml"/>
 <region include="Materials/regions/ascension.xml"/>
+<region include="Materials/regions/mexico.xml"/> <!-- added by gsagostinho -->
 <region include="Materials/regions/brazil_cerrado.xml"/> <!-- added by gsagostinho -->
 <region include="Materials/regions/brazil_brasilia.xml"/> <!-- added by gsagostinho -->
 <region include="Materials/regions/brazil_southern_cerrado.xml"/> <!-- added by gsagostinho -->
