@@ -157,16 +157,10 @@
     <name>AirportKeep</name>
     <name>Greenspace</name>
     <texture-set>
-      <texture>Terrain/grass_dry2.png</texture>      
-      <texture n="11">Terrain/shrub-hawaii-green.png</texture>
-      <texture n="15">Terrain/airport_grass2.png</texture>
+      <texture>Terrain/california-grass.png</texture>  
     </texture-set>
-		<parameters>
-			<grain_strength>0.5</grain_strength>			
-			<hires_overlay_bias>-0.1</hires_overlay_bias>
-		</parameters>
-    <xsize>2000</xsize>
-    <ysize>2000</ysize>
+    <xsize>125</xsize>
+    <ysize>125</ysize>
     <light-coverage>4000000.0</light-coverage>
     <diffuse>
       <r>0.93</r>
