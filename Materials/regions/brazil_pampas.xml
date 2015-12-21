@@ -169,40 +169,4 @@
     <bumpiness>0.8</bumpiness>
   </material>
   
-  <material>
-    <name>Grass</name>
-    <name>Airport</name>
-    <name>AirportKeep</name>
-    <name>Greenspace</name>
-    <texture-set>
-      <texture>Terrain/pampas-grass.png</texture>      
-      <texture n="15">Terrain/airport_grass2.png</texture>
-    </texture-set>
-		<parameters>
-			<grain_strength>0.5</grain_strength>			
-			<hires_overlay_bias>-0.06</hires_overlay_bias>
-		</parameters>
-    <xsize>4000</xsize>
-    <ysize>4000</ysize>
-    <light-coverage>4000000.0</light-coverage>
-    <diffuse>
-      <r>0.93</r>
-      <g>0.95</g>
-      <b>0.93</b>
-      <a>1.0</a>
-    </diffuse>
-    <specular>
-      <r>0.1</r>
-      <g>0.12</g>
-      <b>0.1</b>
-      <a>1.0</a>
-    </specular>
-    <shininess>1.2</shininess>
-    <solid>1</solid>
-    <friction-factor>0.7</friction-factor>
-    <rolling-friction>0.1</rolling-friction>
-    <bumpiness>0.1</bumpiness>
-    <load-resistance>1e30</load-resistance>
-  </material>
-
 </PropertyList>
