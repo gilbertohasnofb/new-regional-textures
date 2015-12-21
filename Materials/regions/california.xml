@@ -50,6 +50,11 @@
     <name>Greenspace</name>
     <name>Grassland</name>
     <name>NaturalCrop</name>
+    <name>Marsh</name>
+    <name>FloodLand</name>
+    <name>SaltMarsh</name>
+    <name>HerbWetlandCover</name>
+    <name>WoodedWetlandCover</name>
     <texture-set>
   		<texture>Terrain/california-grass.png</texture>    
       <texture n="13">Terrain/california-rock.png</texture>  		  
