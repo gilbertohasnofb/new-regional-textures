@@ -33,16 +33,46 @@
   </material>
 
   <material>
+    <name>Grass</name>
+    <name>Airport</name>
+    <name>AirportKeep</name>
+	  <texture-set>
+		  <texture>Terrain/california-airport.png</texture>
+  	</texture-set>
+    <xsize>250</xsize>
+    <ysize>250</ysize>
+    <light-coverage>4000000.0</light-coverage>
+    <diffuse>
+      <r>0.93</r>
+      <g>0.95</g>
+      <b>0.93</b>
+      <a>1.0</a>
+    </diffuse>
+    <specular>
+      <r>0.1</r>
+      <g>0.12</g>
+      <b>0.1</b>
+      <a>1.0</a>
+    </specular>
+    <shininess>1.2</shininess>
+    <solid>1</solid>
+    <friction-factor>0.7</friction-factor>
+    <rolling-friction>0.1</rolling-friction>
+    <bumpiness>0.1</bumpiness>
+    <load-resistance>1e30</load-resistance>
+  </material>
+
+  <material>
     <effect>Effects/landmass-scrub</effect>
     <name>ShrubCover</name>
     <name>ShrubGrassCover</name>
     <name>ScrubCover</name>
     <name>Scrub</name>
     <name>Sclerophyllous</name>
-	  <name>Landmass</name>
-	  <name>SomeSort</name>
-	  <name>Default</name>
-	  <name>GrassCover</name>
+	<name>Landmass</name>
+	<name>SomeSort</name>
+	<name>Default</name>
+	<name>GrassCover</name>
     <name>BareTundraCover</name>
     <name>MixedTundraCover</name>
     <name>Cemetery</name>
