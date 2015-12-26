@@ -116,6 +116,7 @@
     <texture-set>
       <texture>Terrain/grass-caribbean.png</texture>
       <texture n="11">Terrain/gravel_gray.png</texture>
+      <texture n="13">Terrain/california-rock.png</texture>
       <texture n="15">Terrain/airport_grass2.png</texture>
     </texture-set>
 		<parameters>
@@ -143,6 +144,7 @@
       <texture>Terrain/grass-caribbean.png</texture>
       <texture n="11">Terrain/grass_dry3a.png</texture>
       <texture n="12">Terrain/grass_dry3.png</texture>
+      <texture n="13">Terrain/california-rock.png</texture>
       <texture n="15">Terrain/airport_grass2.png</texture>
     </texture-set>
 		<parameters>
@@ -179,6 +181,7 @@
       <texture>Terrain/grass_dry3.png</texture>
       <texture n="11">Terrain/grass_dry3a.png</texture>
       <texture n="12">Terrain/gravel_gray.png</texture>
+      <texture n="13">Terrain/california-rock.png</texture>
       <texture n="15">Terrain/airport_grass2.png</texture>
     </texture-set>
 		<parameters>
@@ -357,6 +360,26 @@
     <texture-set>
       <texture>Terrain/california-rock.png</texture>
       <texture n="11">Terrain/gravel_gray.png</texture>
+      <texture n="14">Terrain/grain_texture.png</texture>
+    </texture-set>    
+    <parameters>
+			<hires_overlay_bias>-0.1</hires_overlay_bias>
+      <grain_strength>0.7</grain_strength>
+    </parameters>
+    <xsize>3000</xsize>
+    <ysize>3000</ysize>
+    <solid>1</solid>
+    <friction-factor>0.9</friction-factor>
+    <rolling-friction>0.1</rolling-friction>
+    <bumpiness>0.3</bumpiness>
+  </material>
+  
+   <material>
+    <name>Lava</name>
+    <name>Burnt</name>
+    <texture-set>
+      <texture>Terrain/california-rock.png</texture>
+      <texture n="11">Terrain/lava2.png</texture>
       <texture n="14">Terrain/grain_texture.png</texture>
     </texture-set>    
     <parameters>
