@@ -202,7 +202,7 @@
     <effect>Effects/forest</effect>
     <texture-set>
       <texture>Terrain/california-shrub.png</texture>
-      <texture n="12">Terrain/california-shrub2.png</texture>
+      <texture n="12">Terrain/california-grass.png</texture>
 	    <texture n="13">Terrain/california-rock.png</texture>
       <texture n="15">Terrain/gravel_red.png</texture> 
     </texture-set>
