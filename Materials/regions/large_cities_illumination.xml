@@ -481,6 +481,48 @@
     <lat2>25.45</lat2>
   </area>
   
+  <area> <!-- Singapore -->
+    <lat1>1.58699</lat1>
+    <lat2>1.21129</lat2>
+    <lon1>103.54190</lon1>
+    <lon2>104.11420</lon2>
+  </area>
+    
+  <area> <!-- Taipei -->
+    <lat1>25.14166</lat1>
+    <lat2>24.94261</lat2>
+    <lon1>121.40199</lon1>
+    <lon2>121.65701</lon2>
+  </area>
+  
+  <area> <!-- Jakarta -->
+    <lat1>-6.02920</lat1>
+    <lat2>-6.67773</lat2>
+    <lon1>106.51083</lon1>
+    <lon2>107.05486</lon2>
+  </area>
+  
+  <area> <!-- Bangkok -->
+    <lat1>13.49122</lat1>
+    <lat2>13.99689</lat2>
+    <lon1>100.80446</lon1>
+    <lon2>100.37361</lon2>
+  </area>
+  
+  <area> <!-- Hanoi -->
+    <lat1>21.10904</lat1>
+    <lat2>20.92763</lat2>
+    <lon1>105.73858</lon1>
+    <lon2>105.92987</lon2>
+  </area>
+  
+  <area> <!-- Kathmandu -->
+    <lat1>27.75152</lat1>
+    <lat2>27.64272</lat2>
+    <lon1>85.27148</lon1>
+    <lon2>85.38671</lon2>
+  </area>
+  
   <!-- all below by Jonathan Redpath (legoboyvdlp) -->
   <area> <!-- Maracay, Venezuela -->
 		<lon1>-67.643852</lon1>
