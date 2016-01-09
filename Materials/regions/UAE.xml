@@ -26,8 +26,8 @@
       <texture>Terrain/town-middle-east.png</texture>
       <texture n="2">Terrain/town-middle-east-relief-light.png</texture>
     </texture-set>
-    <xsize>1000</xsize>
-    <ysize>1000</ysize>
+    <xsize>1400</xsize>
+    <ysize>1400</ysize>
     <light-coverage>100000.0</light-coverage>
     <emissive>
       <r>0.05</r>
