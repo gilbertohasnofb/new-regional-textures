@@ -10,7 +10,6 @@
   </condition>
   
   <material>
-    <effect>Effects/airfield</effect>
     <name>Grass</name>
     <name>Airport</name>
     <name>AirportKeep</name>
