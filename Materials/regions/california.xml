@@ -55,16 +55,10 @@
     <name>SaltMarsh</name>
     <name>HerbWetlandCover</name>
     <name>WoodedWetlandCover</name>
-    <effect>Effects/agriculture</effect>
     <texture-set>
   		<texture>Terrain/california-grass.png</texture>    
-      <texture n="13">Terrain/california-rock.png</texture>  		
-      <texture n="16">Terrain/california-grass.png</texture>  
+      <texture n="13">Terrain/california-rock.png</texture>  		  
     </texture-set>
-    <parameters>
-      <rotation_flag>1</rotation_flag>
-      <rotation_scale>2000.0</rotation_scale>
-    </parameters>
     <xsize>2000</xsize>
     <ysize>2000</ysize>
     <light-coverage>4000000.0</light-coverage>
@@ -92,9 +86,17 @@
     <name>Grass</name>
     <name>Airport</name>
     <name>AirportKeep</name>
-	  <texture-set>
-		  <texture>Terrain/california-airport.png</texture>
-  	</texture-set>
+    <effect>Effects/airfield</effect>
+       <texture-set>
+	<texture>Terrain/california-airport.png</texture>
+ 	<texture n="13">Terrain/gravel_red.png</texture>
+        <texture n="14">Terrain/grass_dry2.png</texture>
+       </texture-set>
+    <parameters>
+      <grit_alpha>0.4</grit_alpha>
+      <use_overlay>1</use_overlay>
+      <overlay_bias>-0.1</overlay_bias>
+    </parameters>
     <xsize>250</xsize>
     <ysize>250</ysize>
     <light-coverage>4000000.0</light-coverage>
@@ -278,7 +280,7 @@
     <texture-set>
       <texture>Terrain/california-forest.png</texture>
 	    <texture n="13">Terrain/california-rock.png</texture>
-      <texture n="12">Terrain/california-grass.png</texture>
+      <texture n="12">Terrain/california-shrub2.png</texture>
     </texture-set>
     <parameters>
 			<grain_strength>0.2</grain_strength>	
