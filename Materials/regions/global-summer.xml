@@ -14,8 +14,9 @@
     <name>Airport</name>
     <name>AirportKeep</name>
     <name>Greenspace</name>
+    <effect>Effects/airfield</effect>
     <texture-set>
-      <texture>Terrain/airport-grass.png</texture>
+      <texture>Terrain/airport_grass2.png</texture>
     </texture-set>
     <xsize>125</xsize>
     <ysize>125</ysize>

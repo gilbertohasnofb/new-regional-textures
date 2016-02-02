@@ -14,11 +14,17 @@
     <name>Grass</name>
     <name>Airport</name>
     <name>AirportKeep</name>
+    <effect>Effects/airfield</effect>
     <texture-set>
-      <texture>Terrain/california-grass.png</texture>  
+      <texture>Terrain/airport-grass.png</texture>
+      <texture n="13">Terrain/airport-grass.png</texture>
     </texture-set>
-    <xsize>125</xsize>
-    <ysize>125</ysize>
+    <parameters>
+      <grit_alpha>0.4</grit_alpha>
+      <use_overlay>0</use_overlay>
+    </parameters>
+    <xsize>1024</xsize>
+    <ysize>1024</ysize>
     <light-coverage>4000000.0</light-coverage>
     <diffuse>
       <r>0.93</r>
