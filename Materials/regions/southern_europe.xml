@@ -67,21 +67,58 @@
   </area>
 
   <material>
+    <name>pa_shoulder</name>
+    <texture>Runway/pa_shoulder_mediterranean.png</texture>
+    <parameters>
+      <uvstretch>8.0</uvstretch>
+    </parameters>
+  </material>
+
+  <material>
+    <name>pa_shoulder_f</name>
+    <texture>Runway/pa_shoulder_f_mediterranean.png</texture>
+    <parameters>
+      <uvstretch>8.0</uvstretch>
+    </parameters>
+  </material>
+  
+  <material>
+    <name>pc_shoulder</name>
+    <texture>Runway/pc_shoulder_mediterranean.png</texture>
+    <parameters>
+      <uvstretch>8.0</uvstretch>
+    </parameters>
+  </material>
+
+  <material>
+    <name>pc_shoulder_f</name>
+    <texture>Runway/pc_shoulder_f_mediterranean.png</texture>
+    <parameters>
+      <uvstretch>8.0</uvstretch>
+    </parameters>
+  </material>
+
+  <material>
     <name>Grass</name>
     <name>Airport</name>
     <name>AirportKeep</name>
     <name>Greenspace</name>
+    <effect>Effects/airfield</effect>
     <texture-set>
       <texture>Terrain/grass_dry3.png</texture>
-      <texture n="11">Terrain/gravel_gray.png</texture>
-			<texture n="15">Terrain/airport_grass2.png</texture>
+      <texture n="13">Terrain/grass_dry3.png</texture>
+      <texture n="14">Terrain/gravel_overlay.png</texture>
     </texture-set>
-		<parameters>
-			<grain_strength>0.5</grain_strength>			
-			<hires_overlay_bias>0.1</hires_overlay_bias>
-		</parameters>
-    <xsize>2000</xsize>
-    <ysize>2000</ysize>
+    <parameters>
+      <grit_alpha>0.4</grit_alpha>
+      <use_overlay>1</use_overlay>
+			<overlay_bias>0.5</overlay_bias>
+      <use_color_overlay>0</use_color_overlay>
+      <base_layer_magnification>1.0</base_layer_magnification>
+      <overlay_layer_magnification>8.0</overlay_layer_magnification>
+    </parameters>
+    <xsize>256</xsize>
+    <ysize>256</ysize>
     <light-coverage>4000000.0</light-coverage>
     <diffuse>
       <r>0.93</r>
