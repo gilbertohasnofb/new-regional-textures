@@ -1,21 +1,13 @@
 <?xml version="1.0"?>
 <!-- Regional definitions for Arctic sea regions -->
 <PropertyList>
-  <name>Arctic and Antarctic sea regions</name>
+  <name>Arctic and Antarctic</name>
 
   <!-- Arctic -->
   <area>
     <lon1>-180.0</lon1>
     <lon2>180.0</lon2>
     <lat1>68.0</lat1>
-    <lat2>90.0</lat2>
-  </area>
-
-  <!-- Greenland -->
-  <area>
-    <lon1>-60.0</lon1>
-    <lon2>-30.0</lon2>
-    <lat1>60.0</lat1>
     <lat2>90.0</lat2>
   </area>
 
@@ -73,6 +65,38 @@
     <solid>0</solid>
     <rolling-friction>2</rolling-friction>
     <bumpiness>0.8</bumpiness>
+  </material>
+  
+  <material>
+    <name>pa_shoulder</name>
+    <texture>Runway/pa_shoulder_winter.png</texture>
+    <parameters>
+      <uvstretch>8.0</uvstretch>
+    </parameters>
+  </material>
+
+  <material>
+    <name>pa_shoulder_f</name>
+    <texture>Runway/pa_shoulder_f_winter.png</texture>
+    <parameters>
+      <uvstretch>8.0</uvstretch>
+    </parameters>
+  </material>
+  
+  <material>
+    <name>pc_shoulder</name>
+    <texture>Runway/pc_shoulder_winter.png</texture>
+    <parameters>
+      <uvstretch>8.0</uvstretch>
+    </parameters>
+  </material>
+
+  <material>
+    <name>pc_shoulder_f</name>
+    <texture>Runway/pc_shoulder_f_winter.png</texture>
+    <parameters>
+      <uvstretch>8.0</uvstretch>
+    </parameters>
   </material>
   
   <material>
