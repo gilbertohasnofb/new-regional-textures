@@ -11,20 +11,58 @@
   </area>
 
   <material>
+    <name>pa_shoulder</name>
+    <texture>Runway/pa_shoulder2_latin_america.png</texture>
+    <parameters>
+      <uvstretch>8.0</uvstretch>
+    </parameters>
+  </material>
+
+  <material>
+    <name>pa_shoulder_f</name>
+    <texture>Runway/pa_shoulder_f_latin_america.png</texture>
+    <parameters>
+      <uvstretch>8.0</uvstretch>
+    </parameters>
+  </material>
+  
+  <material>
+    <name>pc_shoulder</name>
+    <texture>Runway/pa_shoulder2_latin_america.png</texture>
+    <parameters>
+      <uvstretch>8.0</uvstretch>
+    </parameters>
+  </material>
+
+  <material>
+    <name>pc_shoulder_f</name>
+    <texture>Runway/pa_shoulder_f2_latin_america.png</texture>
+    <parameters>
+      <uvstretch>8.0</uvstretch>
+    </parameters>
+  </material>
+
+  <material>
     <name>Grass</name>
     <name>Airport</name>
     <name>AirportKeep</name>
+    <name>Greenspace</name>
     <effect>Effects/airfield</effect>
     <texture-set>
-      <texture>Terrain/airport-grass.png</texture>
-      <texture n="13">Terrain/airport-grass.png</texture>
+      <texture>Terrain/california-grass.png</texture>
+      <texture n="13">Terrain/california-grass.png</texture>
+      <texture n="14">Terrain/airport_grass_overlay.png</texture>
     </texture-set>
     <parameters>
       <grit_alpha>0.4</grit_alpha>
-      <use_overlay>0</use_overlay>
+      <use_overlay>1</use_overlay>
+			<overlay_bias>0.5</overlay_bias>
+      <use_color_overlay>0</use_color_overlay>
+      <base_layer_magnification>1.0</base_layer_magnification>
+      <overlay_layer_magnification>4.0</overlay_layer_magnification>
     </parameters>
-    <xsize>1024</xsize>
-    <ysize>1024</ysize>
+    <xsize>128</xsize>
+    <ysize>128</ysize>
     <light-coverage>4000000.0</light-coverage>
     <diffuse>
       <r>0.93</r>
@@ -80,8 +118,6 @@
     <bumpiness>0.1</bumpiness>
     <load-resistance>1e30</load-resistance>
   </material>
-  
-
 
   <material>
     <name>MixedForestCover</name>
