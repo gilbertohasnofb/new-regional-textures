@@ -79,8 +79,11 @@
     <name>Grass</name>
     <name>Airport</name>
     <name>AirportKeep</name>
-    <texture-set>
-     <texture>Terrain/snow2.png</texture>
+    <effect>Effects/glacier</effect>
+   <texture-set>
+     <texture>Terrain/glacier3.png</texture>
+     <texture n="11">Terrain/snow2.png</texture>
+     <texture n="12">Terrain/glacier1.png</texture>
     </texture-set>
     <xsize>2000</xsize>
     <ysize>2000</ysize>
