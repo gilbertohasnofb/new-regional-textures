@@ -171,7 +171,7 @@
 
   <material include="Materials/base/runway_effect.xml">
     <name>pa_shoulder_f</name>
-    <texture>Runway/pa_shoulder_f1.png</texture>
+    <texture>Runway/pa_shoulder_f.png</texture>
     <parameters>
      <uvstretch>8.0</uvstretch>
     </parameters>
