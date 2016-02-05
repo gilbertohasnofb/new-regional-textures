@@ -5,8 +5,15 @@
 
   <area>
     <lat1>18.19</lat1>
-    <lat2>-36.72</lat2>
+    <lat2>2.0</lat2>
     <lon1>-19.05</lon1>
+    <lon2>42.29</lon2>
+  </area>
+  
+  <area>
+    <lat1>2.0</lat1>
+    <lat2>-36.72</lat2>
+    <lon1>8.00</lon1>
     <lon2>42.29</lon2>
   </area>
 
