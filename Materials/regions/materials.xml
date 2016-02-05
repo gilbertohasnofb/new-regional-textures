@@ -39,17 +39,17 @@
 <region include="Materials/regions/caribbean.xml"/>
 <region include="Materials/regions/ascension.xml"/>
 <region include="Materials/regions/mexico.xml"/>
+<region include="Materials/regions/brazil_amazon_forest.xml"/>
+<region include="Materials/regions/brazil_mata_atlantica.xml"/>
+<region include="Materials/regions/brazil_manaus.xml"/>
 <region include="Materials/regions/brazil_cerrado.xml"/>
 <region include="Materials/regions/brazil_brasilia.xml"/>
 <region include="Materials/regions/brazil_southern_cerrado.xml"/>
-<region include="Materials/regions/brazil_caatinga.xml"/>
-<region include="Materials/regions/brazil_chapada_diamantina.xml"/>
-<region include="Materials/regions/brazil_mata_atlantica.xml"/>
-<region include="Materials/regions/brazil_amazon_forest.xml"/>
-<region include="Materials/regions/brazil_manaus.xml"/>
 <region include="Materials/regions/brazil_pantanal.xml"/>
 <region include="Materials/regions/brazil_pampas.xml"/>
 <region include="Materials/regions/brazil_lencois.xml"/>
+<region include="Materials/regions/brazil_caatinga.xml"/>
+<region include="Materials/regions/brazil_chapada_diamantina.xml"/>
 
 <!-- Asia -->
 <region include="Materials/regions/asia.xml"/>
