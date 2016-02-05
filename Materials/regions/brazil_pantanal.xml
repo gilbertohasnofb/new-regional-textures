@@ -9,6 +9,137 @@
     <lat2>-20.78</lat2>
   </area>
 
+  <area>
+    <lon1>-73.3</lon1>
+    <lon2>-66.0</lon2>
+    <lat1>6.00</lat1>
+    <lat2>-11.3</lat2>
+  </area>
+  
+  <area>
+    <lon1>-66.0</lon1>
+    <lon2>-59.5</lon2>
+    <lat1>8.50</lat1>
+    <lat2>-11.3</lat2>
+  </area>
+  
+  <area>
+    <lon1>-59.5</lon1>
+    <lon2>-47.0</lon2>
+    <lat1>11.0</lat1>
+    <lat2>-13.0</lat2>
+  </area>
+  
+  <area>
+    <lon1>-47.0</lon1>
+    <lon2>-43.5</lon2>
+    <lat1>11.0</lat1>
+    <lat2>-10.0</lat2>
+  </area>
+  
+  <material>
+    <name>pa_shoulder</name>
+    <texture>Runway/pa_shoulder_africa_rainforest.png</texture>
+    <parameters>
+      <uvstretch>8.0</uvstretch>
+    </parameters>
+  </material>
+
+  <material>
+    <name>pa_shoulder_f</name>
+    <texture>Runway/pa_shoulder_f_africa_rainforest.png</texture>
+    <parameters>
+      <uvstretch>8.0</uvstretch>
+    </parameters>
+  </material>
+  
+  <material>
+    <name>pc_shoulder</name>
+    <texture>Runway/pc_shoulder_africa_rainforest.png</texture>
+    <parameters>
+      <uvstretch>8.0</uvstretch>
+    </parameters>
+  </material>
+
+  <material>
+    <name>pc_shoulder_f</name>
+    <texture>Runway/pc_shoulder_f_africa_rainforest.png</texture>
+    <parameters>
+      <uvstretch>8.0</uvstretch>
+    </parameters>
+  </material>
+
+  <material>
+    <name>Grass</name>
+    <name>Airport</name>
+    <name>AirportKeep</name>
+    <name>Greenspace</name>
+    <effect>Effects/airfield</effect>
+    <texture-set>
+      <texture>Terrain/grass_dry2.png</texture>
+      <texture n="13">Terrain/grass_dry2.png</texture>
+      <texture n="14">Terrain/airport_grass_overlay.png</texture>
+    </texture-set>
+    <parameters>
+      <grit_alpha>0.4</grit_alpha>
+      <use_overlay>1</use_overlay>
+			<overlay_bias>0.5</overlay_bias>
+      <use_color_overlay>0</use_color_overlay>
+      <base_layer_magnification>1.0</base_layer_magnification>
+      <overlay_layer_magnification>8.0</overlay_layer_magnification>
+    </parameters>
+    <xsize>256</xsize>
+    <ysize>256</ysize>
+    <light-coverage>4000000.0</light-coverage>
+    <diffuse>
+      <r>0.93</r>
+      <g>0.95</g>
+      <b>0.93</b>
+      <a>1.0</a>
+    </diffuse>
+    <specular>
+      <r>0.1</r>
+      <g>0.12</g>
+      <b>0.1</b>
+      <a>1.0</a>
+    </specular>
+    <shininess>1.2</shininess>
+    <solid>1</solid>
+    <friction-factor>0.7</friction-factor>
+    <rolling-friction>0.1</rolling-friction>
+    <bumpiness>0.1</bumpiness>
+    <load-resistance>1e30</load-resistance>
+  </material>
+  
+  <material>
+    <name>dirt_rwy</name>
+    <effect>Effects/dirt-runway</effect>
+  	<texture-set>
+      <texture>Runway/dirt_rwy.png</texture>
+      <texture n="16">Terrain/gravel_brown.png</texture>
+      <texture n="17">Terrain/grass_dry2a_darker.png</texture>
+    </texture-set>
+    <parameters>
+     	<strength_05m>0.0</strength_05m>
+	    <strength_1m>0.2</strength_1m>
+	    <strength_2m>0.2</strength_2m>
+	    <strength_5m>0.3</strength_5m>
+	    <strength_10m>0.2</strength_10m>
+	    <filter_threshold>0.2</filter_threshold>
+	    <filter_transition>0.4</filter_transition>
+	    <bias_center>1</bias_center>
+	    <bias_center_strength>0.5</bias_center_strength>
+      <relief_strength>0.35</relief_strength>
+	    <size_base>25.0</size_base>
+	    <size_overlay>25.0</size_overlay>
+	    <size_grain>20.0</size_grain>
+    	<grain_strength>0.2</grain_strength>
+    </parameters>
+    <friction-factor>0.7</friction-factor>
+    <rolling-friction>0.04</rolling-friction>
+    <bumpiness>0.1</bumpiness>
+  </material>
+
   <material>
     <name>MixedForestCover</name>
     <name>MixedForest</name>
@@ -62,43 +193,6 @@
     <tree-width-m>20.0</tree-width-m>
     <rolling-friction>1</rolling-friction>
     <bumpiness>1</bumpiness>
-  </material>
-
-  <material>
-    <name>Grass</name>
-    <name>Airport</name>
-    <name>AirportKeep</name>
-    <name>Greenspace</name>
-    <texture-set>
-      <texture>Terrain/grass_dry2.png</texture>      
-      <texture n="11">Terrain/shrub-hawaii-green.png</texture>
-      <texture n="15">Terrain/airport_grass2.png</texture>
-    </texture-set>
-		<parameters>
-			<grain_strength>0.5</grain_strength>			
-			<hires_overlay_bias>-0.1</hires_overlay_bias>
-		</parameters>
-    <xsize>2000</xsize>
-    <ysize>2000</ysize>
-    <light-coverage>4000000.0</light-coverage>
-    <diffuse>
-      <r>0.93</r>
-      <g>0.95</g>
-      <b>0.93</b>
-      <a>1.0</a>
-    </diffuse>
-    <specular>
-      <r>0.1</r>
-      <g>0.12</g>
-      <b>0.1</b>
-      <a>1.0</a>
-    </specular>
-    <shininess>1.2</shininess>
-    <solid>1</solid>
-    <friction-factor>0.7</friction-factor>
-    <rolling-friction>0.1</rolling-friction>
-    <bumpiness>0.1</bumpiness>
-    <load-resistance>1e30</load-resistance>
   </material>
 
 </PropertyList>
