@@ -8,13 +8,6 @@
     <lat2>-7.4</lat2>
   </area>
 
-  <condition>
-    <equals>
-      <property>sim/startup/season</property>
-      <value>summer</value>
-    </equals>
-  </condition>
-
   <material>
     <name>Scrub</name>
     <texture-set>
