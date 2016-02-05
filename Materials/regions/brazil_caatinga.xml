@@ -8,6 +8,80 @@
     <lat1>-2.00</lat1>
     <lat2>-14.0</lat2>
   </area>
+  
+  <material>
+    <name>pa_shoulder</name>
+    <texture>Runway/pa_shoulder2.png</texture>
+    <parameters>
+      <uvstretch>8.0</uvstretch>
+    </parameters>
+  </material>
+
+  <material>
+    <name>pa_shoulder_f</name>
+    <texture>Runway/pa_shoulder_f2.png</texture>
+    <parameters>
+      <uvstretch>8.0</uvstretch>
+    </parameters>
+  </material>
+  
+  <material>
+    <name>pc_shoulder</name>
+    <texture>Runway/pc_shoulder2.png</texture>
+    <parameters>
+      <uvstretch>8.0</uvstretch>
+    </parameters>
+  </material>
+
+  <material>
+    <name>pc_shoulder_f</name>
+    <texture>Runway/pc_shoulder_f2.png</texture>
+    <parameters>
+      <uvstretch>8.0</uvstretch>
+    </parameters>
+  </material>
+
+  <material>
+    <name>Grass</name>
+    <name>Airport</name>
+    <name>AirportKeep</name>
+    <name>Greenspace</name>
+    <effect>Effects/airfield</effect>
+    <texture-set>
+      <texture>Terrain/california-airport.png</texture>
+      <texture n="13">Terrain/california-airport.png</texture>
+      <texture n="14">Terrain/gravel_overlay.png</texture>
+    </texture-set>
+    <parameters>
+      <grit_alpha>0.4</grit_alpha>
+      <use_overlay>1</use_overlay>
+			<overlay_bias>0.5</overlay_bias>
+      <use_color_overlay>0</use_color_overlay>
+      <base_layer_magnification>1.0</base_layer_magnification>
+      <overlay_layer_magnification>16.0</overlay_layer_magnification>
+    </parameters>
+    <xsize>128</xsize>
+    <ysize>128</ysize>
+    <light-coverage>4000000.0</light-coverage>
+    <diffuse>
+      <r>0.93</r>
+      <g>0.95</g>
+      <b>0.93</b>
+      <a>1.0</a>
+    </diffuse>
+    <specular>
+      <r>0.1</r>
+      <g>0.12</g>
+      <b>0.1</b>
+      <a>1.0</a>
+    </specular>
+    <shininess>1.2</shininess>
+    <solid>1</solid>
+    <friction-factor>0.7</friction-factor>
+    <rolling-friction>0.1</rolling-friction>
+    <bumpiness>0.1</bumpiness>
+    <load-resistance>1e30</load-resistance>
+  </material>
 
   <material>
     <name>MixedForestCover</name>
@@ -178,42 +252,6 @@
     <tree-width-m>8.0</tree-width-m>
     <rolling-friction>0.7</rolling-friction>
     <bumpiness>0.8</bumpiness>
-  </material>
-  
-  <material>
-    <name>Grass</name>
-    <name>Airport</name>
-    <name>AirportKeep</name>
-    <name>Greenspace</name>
-    <texture-set>
-      <texture>Terrain/grass_dry2.png</texture>      
-      <texture n="11">Terrain/gravel_red.png</texture>
-    </texture-set>
-		<parameters>
-			<grain_strength>0.5</grain_strength>			
-			<hires_overlay_bias>-0.03</hires_overlay_bias>
-		</parameters>
-    <xsize>2000</xsize>
-    <ysize>2000</ysize>
-    <light-coverage>4000000.0</light-coverage>
-    <diffuse>
-      <r>0.93</r>
-      <g>0.95</g>
-      <b>0.93</b>
-      <a>1.0</a>
-    </diffuse>
-    <specular>
-      <r>0.1</r>
-      <g>0.12</g>
-      <b>0.1</b>
-      <a>1.0</a>
-    </specular>
-    <shininess>1.2</shininess>
-    <solid>1</solid>
-    <friction-factor>0.7</friction-factor>
-    <rolling-friction>0.1</rolling-friction>
-    <bumpiness>0.1</bumpiness>
-    <load-resistance>1e30</load-resistance>
   </material>
   
   <material>  
