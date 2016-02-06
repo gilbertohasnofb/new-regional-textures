@@ -138,7 +138,7 @@
     <name>SubUrban</name>
     <effect>Effects/urban</effect>
     <texture-set>
-      <texture>Terrain/town-europe.png</texture>
+      <texture>Terrain/town-europe-autumn.png</texture>
       <texture n="2">Terrain/town-europe-relief-light.png</texture>
     </texture-set>    
     <object-mask>Terrain/town-europe.mask.png</object-mask>
