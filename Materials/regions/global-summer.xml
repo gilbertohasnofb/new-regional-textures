@@ -16,8 +16,8 @@
     <name>Greenspace</name>
     <effect>Effects/airfield</effect>
     <texture-set>
-      <texture>Terrain/airport-grass.png</texture>
-      <texture n="13">Terrain/airport-grass.png</texture>
+      <texture>Terrain/airport-grass-autumn.png</texture>
+      <texture n="13">Terrain/airport-grass-autumn.png</texture>
       <texture n="14">Terrain/airport_grass_overlay.png</texture>
     </texture-set>
     <parameters>
