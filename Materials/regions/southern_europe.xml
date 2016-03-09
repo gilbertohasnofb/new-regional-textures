@@ -65,6 +65,21 @@
     <lat1>36.85</lat1>
     <lat2>35.97</lat2>
   </area>
+  
+  <!-- Atlantic Islands (Madeira, Canarias, Tenerife, etc.) -->
+  <area>
+    <lon1>-32.4</lon1>
+    <lon2>-15.0</lon2>
+    <lat1>40.44</lat1>
+    <lat2>26.46</lat2>
+  </area>
+
+  <area>
+    <lon1>-15.0</lon1>
+    <lon2>-13.217</lon2>
+    <lat1>30.007</lat1>
+    <lat2>27.887</lat2>
+  </area>
 
   <material>
     <name>pa_shoulder</name>
