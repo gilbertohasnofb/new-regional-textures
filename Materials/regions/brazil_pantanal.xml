@@ -8,34 +8,6 @@
     <lat1>-15.80</lat1>
     <lat2>-20.78</lat2>
   </area>
-
-  <area>
-    <lon1>-73.3</lon1>
-    <lon2>-66.0</lon2>
-    <lat1>6.00</lat1>
-    <lat2>-11.3</lat2>
-  </area>
-  
-  <area>
-    <lon1>-66.0</lon1>
-    <lon2>-59.5</lon2>
-    <lat1>8.50</lat1>
-    <lat2>-11.3</lat2>
-  </area>
-  
-  <area>
-    <lon1>-59.5</lon1>
-    <lon2>-47.0</lon2>
-    <lat1>11.0</lat1>
-    <lat2>-13.0</lat2>
-  </area>
-  
-  <area>
-    <lon1>-47.0</lon1>
-    <lon2>-43.5</lon2>
-    <lat1>11.0</lat1>
-    <lat2>-10.0</lat2>
-  </area>
   
   <material>
     <name>pa_shoulder</name>
